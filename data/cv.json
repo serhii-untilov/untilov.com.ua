@@ -1,0 +1,34 @@
+{
+    "name": "Serhii Untilov",
+    "job": "Full-stack Web Developer",
+    "about": "",
+    "email": "s.untilov@gmail.com",
+    "site": "https://untilov.com.ua",
+    "social-media": {
+        "github": "https://github.com/serhii-untilov",
+        "facebook": "https://www.facebook.com/s.untilov",
+        "linkedin": "https://www.linkedin.com/in/serhiiuntilov"
+    },
+    "experience": [
+        {
+            "title": "Programmer, Team lead",
+            "company": "Alliance Solution",
+            "place": "Kyiv, Ukraine",
+            "description": "Development of the A5 Tariffication project for Educational organizations",
+            "responsibilities": [
+                "analysis of customer requirements",
+                "product design, project management",
+                "programming, team management",
+                "holding on presentations"
+            ],
+            "stack": [
+                "Javascript",
+                "UnityBase",
+                "ExtJS",
+                "SQL"
+            ]
+        }
+    ],
+    "education": [],
+    "skills": []
+}
