@@ -5,17 +5,20 @@ export function TechStack(props: any) {
     const { cv } = props;
     const generateStack = () => {
         return cv['tech-stack'].map((element: string, index: number) => (
-            // <li key={index}>
-            <Image
-                key={index}
-                src={`/${element}.svg`}
-                alt={`${element} Logo`}
-                // className="hover:animate-bounce cursor-pointer"
-                className="hover:-translate-y-2 transition-all cursor-pointer"
-                width={50}
-                height={50}
-                priority
-            />
+            <div key={index} className="group relative w-max">
+                <Image
+                    src={`/${element}.svg`}
+                    alt={`${element} Logo`}
+                    // className="hover:animate-bounce cursor-pointer"
+                    className="hover:-translate-y-2 transition-all cursor-pointer"
+                    width={50}
+                    height={50}
+                    priority
+                />
+                <span className="pointer-events-none absolute -top-8 left-0 text-center w-max opacity-0 transition-opacity group-hover:opacity-100 text-sm text-gray-500">
+                    {element}
+                </span>
+            </div>
             // </li>
         ));
     };

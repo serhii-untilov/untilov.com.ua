@@ -5,8 +5,8 @@ export function Home(cv: any) {
     return (
         <div className="flex flex-col h-full justify-center gap-8">
             <div className="flex flex-row justify-between gap-8">
-                <div className="flex flex-col gap-8">
-                    <h2 className="text-5xl font-extrabold max-w-sm leading-normal">
+                <div className="flex flex-col gap-6">
+                    <h2 className="text-5xl font-extrabold text-black max-w-sm leading-normal">
                         {cv.job}
 
                         <span className="my-8">&nbsp;&nbsp;</span>
@@ -20,7 +20,7 @@ export function Home(cv: any) {
                         />
                     </h2>
 
-                    <h2 className="max-w-lg text-gray-700 text-lg">
+                    <h2 className="max-w-lg text-gray-700 text-lg mb-6">
                         {cv.about}
                         <span className="my-8">&nbsp;&nbsp;&nbsp;</span>
                         <Image
@@ -39,7 +39,6 @@ export function Home(cv: any) {
                                 <Image
                                     src="/linkedin.svg"
                                     alt="LinkedIn Logo"
-                                    className="fill-red-800 hover:fill-blue-500"
                                     width={32}
                                     height={32}
                                     priority
@@ -51,7 +50,6 @@ export function Home(cv: any) {
                                 <Image
                                     src="/github.svg"
                                     alt="GitHub Logo"
-                                    className="dark:invert"
                                     width={32}
                                     height={32}
                                     priority
@@ -71,8 +69,8 @@ export function Home(cv: any) {
                     />
                 </div>
             </div>
-            <div className="flex flex-row gap-8 text-lg font-medium my-28 align-middle">
-                <div className="my-auto">Tech Stack</div>
+            <div className="flex flex-row gap-8 text-lg font-medium my-28">
+                <div className="my-auto whitespace-pre text-black">Tech Stack</div>
                 <div className="text-gray-500 my-auto">|</div>
                 <TechStack cv={cv} />
             </div>
