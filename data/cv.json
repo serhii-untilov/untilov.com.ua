@@ -1,17 +1,31 @@
 {
-    "name": "Serhii Untilov",
-    "job": "Full-stack Web Developer",
-    "about": "",
-    "email": "s.untilov@gmail.com",
     "site": {
         "link": "https://untilov.com.ua",
         "label": "Untilov.com.ua"
     },
+    "name": "Serhii Untilov",
+    "job": "Full-stack Web Developer",
+    "about": "Hi, I'm Serhii Untilov. A Full-stack Web Developer based in Irpin, Ukraine.",
+    "email": "s.untilov@gmail.com",
     "social-media": {
+        "linkedin": "https://www.linkedin.com/in/serhiiuntilov",
         "github": "https://github.com/serhii-untilov",
-        "facebook": "https://www.facebook.com/s.untilov",
-        "linkedin": "https://www.linkedin.com/in/serhiiuntilov"
+        "facebook": "https://www.facebook.com/s.untilov"
     },
+    "tech-stack": [
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "JS",
+        "TS",
+        "React",
+        "Next",
+        "Nest",
+        "TypeORM",
+        "Postgres",
+        "Docker",
+        "Python"
+    ],
     "experience": [
         {
             "title": "Programmer, Team lead",

@@ -16,6 +16,18 @@ const config: Config = {
             boxShadow: {
                 bottom: '0 0 10px rgba(0, 0, 0, .09);',
             },
+            keyframes: {
+                morph: {
+                    '0%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' },
+                    '25%': { borderRadius: '40% 60% 70% 30%/70% 60% 40% 70%' },
+                    '50%': { borderRadius: '30% 70% 40% 60%/30% 40% 60% 60%' },
+                    '75%': { borderRadius: '70% 30% 60% 40%/40% 70% 30% 30%' },
+                    '100%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' },
+                },
+            },
+            animation: {
+                morph: 'morph 8s ease-in-out infinite',
+            },
         },
     },
     plugins: [],
