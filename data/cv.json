@@ -3,7 +3,10 @@
     "job": "Full-stack Web Developer",
     "about": "",
     "email": "s.untilov@gmail.com",
-    "site": "https://untilov.com.ua",
+    "site": {
+        "link": "https://untilov.com.ua",
+        "label": "Untilov.com.ua"
+    },
     "social-media": {
         "github": "https://github.com/serhii-untilov",
         "facebook": "https://www.facebook.com/s.untilov",
