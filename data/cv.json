@@ -16,13 +16,13 @@
     },
     "job": "Full-stack Web Developer",
     "brief": "Hi, I'm Serhii Untilov. A Full-stack Web Developer based in Irpin, Ukraine.",
-    "social-media": {
+    "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/serhiiuntilov",
         "github": "https://github.com/serhii-untilov",
         "facebook": "https://www.facebook.com/s.untilov",
         "harvardx": "https://courses.edx.org/certificates/631ec2cdcc6145aabcc6d5674762f51c"
     },
-    "tech-stack": [
+    "techStack": [
         "HTML5",
         "CSS3",
         "Tailwind CSS",
@@ -48,7 +48,24 @@
             "Lately, I've been focusing on full-stack web development and end-to-end software deployment."
         ]
     },
-    "projects": [],
+    "projects": [
+        {
+            "title": "Payroll SMB",
+            "description": "Payroll SMB application provides a **solution for employers and employees to calculate salary** and taxes based on laws for chosen country",
+            "pageUrl": "",
+            "techStack": [
+                "TypeScript",
+                "NestJS",
+                "TypeORM",
+                "Postgres",
+                "React",
+                "Material UI",
+                "Docker"
+            ],
+            "sourceUrl": "https://github.com/serhii-untilov/Payroll",
+            "demoUrl": ""
+        }
+    ],
     "experience": [
         {
             "title": "Programmer, Team lead",

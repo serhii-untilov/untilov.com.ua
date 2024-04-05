@@ -38,9 +38,9 @@ export function Home(cv: any) {
                     </h2>
 
                     <ul className="flex flex-row gap-4 content-center">
-                        {cv['social-media'].linkedin ? (
+                        {cv['socialMedia'].linkedin ? (
                             <li>
-                                <a href={cv['social-media'].linkedin}>
+                                <a href={cv['socialMedia'].linkedin}>
                                     <Image
                                         src="/linkedin.svg"
                                         alt="LinkedIn Logo"
@@ -51,9 +51,9 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null}
-                        {cv['social-media'].github ? (
+                        {cv['socialMedia'].github ? (
                             <li>
-                                <a href={cv['social-media'].github}>
+                                <a href={cv['socialMedia'].github}>
                                     <Image
                                         src="/github.svg"
                                         alt="GitHub Logo"
@@ -64,9 +64,9 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null}
-                        {/* {cv['social-media'].facebook ? (
+                        {/* {cv['socialMedia'].facebook ? (
                             <li>
-                                <a href={cv['social-media'].facebook}>
+                                <a href={cv['socialMedia'].facebook}>
                                     <Image
                                         src="/facebook.svg"
                                         alt="Facebook Logo"
@@ -77,9 +77,9 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null} */}
-                        {cv['social-media'].harvardx ? (
+                        {cv['socialMedia'].harvardx ? (
                             <li>
-                                <a href={cv['social-media'].harvardx}>
+                                <a href={cv['socialMedia'].harvardx}>
                                     <Image
                                         src="/harvardx.svg"
                                         alt="HarvardX Logo"

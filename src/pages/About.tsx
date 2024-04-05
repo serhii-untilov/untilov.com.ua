@@ -43,11 +43,6 @@ export function About(cv: any) {
                     <div className="flex flex-col gap-6 text-gray-700">{generateAbout()}</div>
                 </div>
             </div>
-            {/* <div className="flex flex-row gap-8 text-lg font-medium my-28">
-                <div className="my-auto whitespace-pre text-black">Tech Stack</div>
-                <div className="text-gray-500 my-auto">|</div>
-                <TechStack cv={cv} />
-            </div> */}
         </div>
     );
 }

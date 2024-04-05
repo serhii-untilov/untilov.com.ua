@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 export function TechStack(props: any) {
     const { cv } = props;
     const generateStack = () => {
-        return cv['tech-stack'].map((element: string, index: number) => (
+        return cv['techStack'].map((element: string, index: number) => (
             <div key={index} className="group relative w-max">
                 <a href="#projects">
                     <Image
