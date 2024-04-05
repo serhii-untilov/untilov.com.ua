@@ -36,5 +36,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## References
+
 [**Load file** - How to Load Data from a File in Next.js](https://vercel.com/guides/loading-static-file-nextjs-api-route)
 [**SVG icons** - Iconduck - free open source icons & illustrations](https://iconduck.com/)
