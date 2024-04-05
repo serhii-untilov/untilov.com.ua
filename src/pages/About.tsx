@@ -17,7 +17,7 @@ export function About(cv: any) {
                     <Image
                         src="/desk.webp"
                         alt={'Desk image'}
-                        className="rounded-xl"
+                        className="rounded-2xl"
                         width={410}
                         height={350}
                     />

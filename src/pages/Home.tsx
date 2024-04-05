@@ -111,7 +111,7 @@ export function Home(cv: any) {
                         <Image
                             src="/hero.png"
                             alt={'Hero image'}
-                            className="animate-morph border-4 border-gray-700 brightness-125"
+                            className="animate-morph border-4 border-gray-700 brightness-125 shadow-2xl"
                             width={300}
                             height={300}
                             priority
