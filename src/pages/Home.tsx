@@ -10,63 +10,114 @@ export function Home(cv: any) {
                         {cv.job}
 
                         <span className="my-8">&nbsp;&nbsp;</span>
-                        <Image
-                            src="/waving-hand.svg"
-                            alt="Waving hand image"
-                            className="inline opacity-50 origin-bottom-right hover:rotate-12 transition-all cursor-pointer"
-                            width={62}
-                            height={62}
-                            priority
-                        />
+                        <a href="#experience">
+                            <Image
+                                src="/waving-hand.svg"
+                                alt="Waving hand image"
+                                className="inline opacity-50 origin-bottom-right hover:rotate-12 transition-all cursor-pointer"
+                                width={62}
+                                height={62}
+                                priority
+                            />
+                        </a>
                     </h2>
 
                     <h2 className="max-w-lg text-gray-700 text-lg mb-6">
-                        {cv.about}
+                        {cv.brief}
                         <span className="my-8">&nbsp;&nbsp;&nbsp;</span>
-                        <Image
-                            src="/map-pin.svg"
-                            alt="Map pin image"
-                            className="inline opacity-50 hover:animate-bounce transition-all cursor-pointer"
-                            width={12}
-                            height={12}
-                            priority
-                        />
+                        <a href="#contact">
+                            <Image
+                                src="/map-pin.svg"
+                                alt="Map pin image"
+                                className="inline opacity-50 hover:animate-bounce transition-all cursor-pointer"
+                                width={12}
+                                height={12}
+                                priority
+                            />
+                        </a>
                     </h2>
 
-                    <ul className="flex gap-4">
-                        <li>
-                            <a href={cv['social-media'].linkedin}>
-                                <Image
-                                    src="/linkedin.svg"
-                                    alt="LinkedIn Logo"
-                                    width={32}
-                                    height={32}
-                                    priority
-                                />
-                            </a>
-                        </li>
-                        <li>
-                            <a href={cv['social-media'].github}>
-                                <Image
-                                    src="/github.svg"
-                                    alt="GitHub Logo"
-                                    width={32}
-                                    height={32}
-                                    priority
-                                />
-                            </a>
-                        </li>
+                    <ul className="flex flex-row gap-4 content-center">
+                        {cv['social-media'].linkedin ? (
+                            <li>
+                                <a href={cv['social-media'].linkedin}>
+                                    <Image
+                                        src="/linkedin.svg"
+                                        alt="LinkedIn Logo"
+                                        width={32}
+                                        height={32}
+                                        priority
+                                    />
+                                </a>
+                            </li>
+                        ) : null}
+                        {cv['social-media'].github ? (
+                            <li>
+                                <a href={cv['social-media'].github}>
+                                    <Image
+                                        src="/github.svg"
+                                        alt="GitHub Logo"
+                                        width={32}
+                                        height={32}
+                                        priority
+                                    />
+                                </a>
+                            </li>
+                        ) : null}
+                        {/* {cv['social-media'].facebook ? (
+                            <li>
+                                <a href={cv['social-media'].facebook}>
+                                    <Image
+                                        src="/facebook.svg"
+                                        alt="Facebook Logo"
+                                        width={32}
+                                        height={32}
+                                        priority
+                                    />
+                                </a>
+                            </li>
+                        ) : null} */}
+                        {cv['social-media'].harvardx ? (
+                            <li>
+                                <a href={cv['social-media'].harvardx}>
+                                    <Image
+                                        src="/harvardx.svg"
+                                        alt="HarvardX Logo"
+                                        width={48}
+                                        height={32}
+                                        priority
+                                        className="mt-1"
+                                    />
+                                </a>
+                            </li>
+                        ) : null}
+                        {/* {cv.email ? (
+                            <li>
+                                <a href={'mailto: ' + cv.email}>
+                                    <Image
+                                        src="/email.svg"
+                                        alt="Email Image"
+                                        width={32}
+                                        height={32}
+                                        priority
+                                    />
+                                </a>
+                            </li>
+                        ) : null} */}
                     </ul>
                 </div>
                 <div className="flex flex-auto justify-center">
-                    <Image
-                        src="/hero.png"
-                        alt={'Hero image'}
-                        className="animate-morph border-4 border-gray-700"
-                        width={300}
-                        height={300}
-                        priority
-                    />
+                    <a href="#about">
+                        <Image
+                            src="/hero.png"
+                            alt={'Hero image'}
+                            className="animate-morph border-4 border-gray-700 brightness-125"
+                            width={300}
+                            height={300}
+                            priority
+                            quality={100}
+                        />
+                    </a>
                 </div>
             </div>
             <div className="flex flex-row gap-8 text-lg font-medium my-28">
