@@ -51,19 +51,19 @@
     "projects": [
         {
             "title": "Payroll SMB",
-            "description": "Payroll SMB application provides a **solution for employers and employees to calculate salary** and taxes based on laws for chosen country",
+            "description": "Payroll SMB application provides a solution for employers and employees to calculate salary and taxes based on laws for chosen country",
             "pageUrl": "",
             "techStack": [
                 "TypeScript",
+                "React",
+                "Material UI",
                 "NestJS",
                 "TypeORM",
                 "Postgres",
-                "React",
-                "Material UI",
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
-            "demoUrl": ""
+            "demoUrl": "https://github.com/serhii-untilov/Payroll"
         }
     ],
     "experience": [

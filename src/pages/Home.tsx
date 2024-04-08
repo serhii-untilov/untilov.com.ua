@@ -106,7 +106,7 @@ export function Home(cv: any) {
                         ) : null} */}
                     </ul>
                 </div>
-                <div className="flex flex-auto justify-center">
+                <div className="flex-none">
                     <a href="#about">
                         <Image
                             src="/hero.png"
@@ -123,7 +123,7 @@ export function Home(cv: any) {
             <div className="flex flex-row gap-8 text-lg font-medium my-28">
                 <div className="my-auto whitespace-pre text-black">Tech Stack</div>
                 <div className="text-gray-500 my-auto">|</div>
-                <TechStack cv={cv} />
+                <TechStack techStack={cv.techStack} />
             </div>
         </div>
     );

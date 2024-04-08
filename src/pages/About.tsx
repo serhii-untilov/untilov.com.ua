@@ -1,6 +1,5 @@
 import { PageSubTitle } from '@/components/PageSubTitle';
 import { PageTitle } from '@/components/PageTitle';
-import { TechStack } from '@/components/TechStack';
 import Image from 'next/image';
 
 export function About(cv: any) {
@@ -12,12 +11,12 @@ export function About(cv: any) {
 
     return (
         <div className="flex flex-col h-full justify-center gap-8">
-            <div className="flex flex-row justify-between gap-16">
-                <div className="flex justify-center grow-0 shrink-0">
+            <div className="flex flex-row justify-between gap-16 grow-0 shrink-0">
+                <div className="flex-none">
                     <Image
                         src="/desk.webp"
                         alt={'Desk image'}
-                        className="rounded-2xl"
+                        className="rounded-2xl opacity-85"
                         width={410}
                         height={350}
                     />
@@ -32,7 +31,7 @@ export function About(cv: any) {
                                 <Image
                                     src="/map-pin.svg"
                                     alt="Map pin image"
-                                    className="inline opacity-50 hover:animate-bounce transition-all cursor-pointer"
+                                    className="opacity-50 inline hover:animate-bounce transition-all cursor-pointer"
                                     width={12}
                                     height={12}
                                     priority
