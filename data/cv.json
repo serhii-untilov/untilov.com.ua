@@ -5,10 +5,16 @@
         "projects": "true",
         "experience": "true",
         "education": "true",
-        "skills": "true",
+        "skills": "false",
         "contact": "true"
     },
     "name": "Serhii Untilov",
+    "status": [
+        "Open for work proposals",
+        "Open for job offers"
+    ],
+    "cv": "/files/CV-Serhii-Untilov.pdf",
+    "location": "Irpin, Ukraine",
     "email": "s.untilov@gmail.com",
     "site": {
         "link": "https://untilov.com.ua",
@@ -69,23 +75,117 @@
     "experience": [
         {
             "title": "Programmer, Team lead",
+            "image": "/team-leader.svg",
             "company": "Alliance Solution",
-            "place": "Kyiv, Ukraine",
-            "description": "Development of the A5 Tariffication project for Educational organizations",
+            "place": "Kyiv",
+            "start": "jun 2021",
+            "finish": "present",
+            "description": "Development of the Tariffication project for Educational organizations",
             "responsibilities": [
                 "analysis of customer requirements",
                 "product design, project management",
-                "programming, team management",
-                "holding on presentations"
+                "programming, team management"
             ],
-            "stack": [
-                "Javascript",
+            "techStack": [
+                "JavaScript",
                 "UnityBase",
                 "ExtJS",
-                "SQL"
+                "Postgres"
+            ]
+        },
+        {
+            "title": "Project manager",
+            "image": "/manager.svg",
+            "company": "A5 Systems",
+            "place": "Kyiv",
+            "start": "feb 2019",
+            "finish": "apr 2021",
+            "description": "Development of the Payroll project for the HRMIS",
+            "responsibilities": [
+                "analysis of customer requirements",
+                "product design, project management",
+                "holding on presentations"
+            ],
+            "techStack": [
+                "Confluence",
+                "Jira"
+            ]
+        },
+        {
+            "title": "Programmer",
+            "image": "/developer.svg",
+            "company": "Raiffeisen Bank Aval",
+            "place": "Kyiv",
+            "start": "aug 2018",
+            "finish": "feg 2019",
+            "description": "Core bank system development team",
+            "responsibilities": [
+                "applications development and maintenance"
+            ],
+            "techStack": [
+                "C",
+                "Oracle",
+                "Python"
+            ]
+        },
+        {
+            "title": "Programmer, Team lead",
+            "image": "/team-leader.svg",
+            "company": "Intellect-Service",
+            "place": "Kyiv",
+            "start": "dec 2008",
+            "finish": "dec 2017",
+            "description": "Development solutions for the IS-Pro ERP system",
+            "responsibilities": [
+                "programming, team management, code reviewing, holding on presentations",
+                "solutions development in distributed system for State Fiscal Service of Ukraine",
+                "developing multiprocessing procedure of batch calculating for large organizations"
+            ],
+            "techStack": [
+                "C",
+                "C++",
+                "Oracle",
+                "MS SQL Server"
             ]
         }
     ],
-    "education": [],
+    "education": {
+        "main": [
+            {
+                "degree": "Master's degree",
+                "profile": "Economic cybernetics",
+                "place": "Kyiv National Economic University (Ukraine)",
+                "start": "Sep 2002",
+                "finish": "Mar 2007",
+                "certificateImage": "/Masters-degree.svg",
+                "certificateUrl": ""
+            }
+        ],
+        "courses": [
+            {
+                "profile": "CS50: Web Programming",
+                "place": "HarvardX, an online learning initiative of Harvard University",
+                "start": "oct 2023",
+                "finish": "dec 2023",
+                "certificateImage": "/CertificateHarvardX.png",
+                "certificateUrl": "https://courses.edx.org/certificates/631ec2cdcc6145aabcc6d5674762f51c"
+            },
+            {
+                "profile": "Python programming language",
+                "place": "Prometheus.org.ua, Kyiv (Ukraine)",
+                "start": "Jan 2015",
+                "finish": "Mar 2015",
+                "certificateImage": "",
+                "certificateUrl": ""
+            },
+            {
+                "profile": "Java programming language",
+                "place": "Prog.kiev.ua, Kyiv (Ukraine)",
+                "start": "Sep 2016",
+                "finish": "Jan 2017",
+                "certificateUrl": ""
+            }
+        ]
+    },
     "skills": []
 }

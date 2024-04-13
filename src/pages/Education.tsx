@@ -1,3 +1,28 @@
+import { CoursesItem } from '@/components/CoursesItem';
+import { EducationItem } from '@/components/EducationItem';
+import { PageTitle } from '@/components/PageTitle';
+
 export function Education(cv: any) {
-    return <h2>Education</h2>;
+    const generateMainEducation = () => {
+        return cv?.education?.main?.map((element: any, index: number) => {
+            return <EducationItem key={index} education={element} />;
+        });
+    };
+
+    const generateCourses = () => {
+        return cv?.education?.courses?.map((element: any, index: number) => {
+            return <CoursesItem key={index} course={element} />;
+        });
+    };
+
+    return (
+        <div className="flex flex-col h-full justify-center gap-8">
+            <PageTitle>Education</PageTitle>
+            {generateMainEducation()}
+            <PageTitle className="text-md uppercase font-extrabold text-blue-600">
+                Courses
+            </PageTitle>
+            <div className="flex flex-row flex-wrap justify-between">{generateCourses()}</div>
+        </div>
+    );
 }

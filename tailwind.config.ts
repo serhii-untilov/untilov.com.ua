@@ -28,6 +28,9 @@ const config: Config = {
             animation: {
                 morph: 'morph 8s ease-in-out infinite',
             },
+            slantContainer: {
+                transform: 'skew(14deg)',
+            },
         },
     },
     plugins: [],

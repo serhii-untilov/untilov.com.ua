@@ -1,3 +1,4 @@
+import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
 import Image from 'next/image';
 
@@ -6,13 +7,13 @@ export function Home(cv: any) {
         <div className="flex flex-col h-full justify-center gap-8">
             <div className="flex flex-row justify-between gap-8">
                 <div className="flex flex-col gap-6">
-                    <h2 className="text-5xl font-extrabold text-black max-w-sm leading-normal">
+                    <h2 className="text-5xl font-extrabold text-gray-800 max-w-sm leading-normal">
                         {cv.job}
 
                         <span className="my-8">&nbsp;&nbsp;</span>
                         <a href="#experience">
                             <Image
-                                src="/waving-hand.svg"
+                                src="/images/waving-hand.svg"
                                 alt="Waving hand image"
                                 className="inline opacity-50 origin-bottom-right hover:rotate-12 transition-all cursor-pointer"
                                 width={62}
@@ -27,7 +28,7 @@ export function Home(cv: any) {
                         <span className="my-8">&nbsp;&nbsp;&nbsp;</span>
                         <a href="#contact">
                             <Image
-                                src="/map-pin.svg"
+                                src="/images/map-pin.svg"
                                 alt="Map pin image"
                                 className="inline opacity-50 hover:animate-bounce transition-all cursor-pointer"
                                 width={12}
@@ -42,7 +43,7 @@ export function Home(cv: any) {
                             <li>
                                 <a href={cv['socialMedia'].linkedin}>
                                     <Image
-                                        src="/linkedin.svg"
+                                        src="/images/linkedin.svg"
                                         alt="LinkedIn Logo"
                                         width={32}
                                         height={32}
@@ -55,7 +56,7 @@ export function Home(cv: any) {
                             <li>
                                 <a href={cv['socialMedia'].github}>
                                     <Image
-                                        src="/github.svg"
+                                        src="/images/github.svg"
                                         alt="GitHub Logo"
                                         width={32}
                                         height={32}
@@ -68,7 +69,7 @@ export function Home(cv: any) {
                             <li>
                                 <a href={cv['socialMedia'].facebook}>
                                     <Image
-                                        src="/facebook.svg"
+                                        src="/images/facebook.svg"
                                         alt="Facebook Logo"
                                         width={32}
                                         height={32}
@@ -81,7 +82,7 @@ export function Home(cv: any) {
                             <li>
                                 <a href={cv['socialMedia'].harvardx}>
                                     <Image
-                                        src="/harvardx.svg"
+                                        src="/images/harvardx.svg"
                                         alt="HarvardX Logo"
                                         width={48}
                                         height={32}
@@ -95,7 +96,7 @@ export function Home(cv: any) {
                             <li>
                                 <a href={'mailto: ' + cv.email}>
                                     <Image
-                                        src="/email.svg"
+                                        src="/images/email.svg"
                                         alt="Email Image"
                                         width={32}
                                         height={32}
@@ -104,12 +105,15 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null} */}
+                        <li className="pl-12">
+                            <Status cv={cv} />
+                        </li>
                     </ul>
                 </div>
                 <div className="flex-none">
                     <a href="#about">
                         <Image
-                            src="/hero.png"
+                            src="/images/hero.png"
                             alt={'Hero image'}
                             className="animate-morph border-4 border-gray-700 brightness-125 shadow-2xl"
                             width={300}
@@ -120,8 +124,8 @@ export function Home(cv: any) {
                     </a>
                 </div>
             </div>
-            <div className="flex flex-row gap-8 text-lg font-medium my-28">
-                <div className="my-auto whitespace-pre text-black">Tech Stack</div>
+            <div className="flex flex-row gap-8 text-lg font-medium my-14">
+                <div className="my-auto whitespace-pre text-gray-900">Tech Stack</div>
                 <div className="text-gray-500 my-auto">|</div>
                 <TechStack techStack={cv.techStack} />
             </div>

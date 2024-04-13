@@ -1,5 +1,13 @@
 import { PropsWithChildren } from 'react';
 
-export function PageTitle(props: PropsWithChildren) {
-    return <h2 className="text-lg uppercase font-extrabold text-blue-500">{props.children}</h2>;
+interface PageTitleProps extends PropsWithChildren {
+    className?: string | undefined;
+}
+
+export function PageTitle(props: PageTitleProps) {
+    return (
+        <h2 className="mt-24 text-lg uppercase font-extrabold text-blue-500" {...props}>
+            {props.children}
+        </h2>
+    );
 }

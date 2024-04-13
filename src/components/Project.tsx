@@ -12,7 +12,9 @@ export function Project(props: any) {
                     <PageSubTitle>{project.title}</PageSubTitle>
                     <p className="text-gray-700">{project.description}</p>
                     {/* <div className="my-auto whitespace-pre text-black">Tech Stack</div> */}
-                    <TechStack techStack={project.techStack} />
+                    <div className="opacity-85">
+                        <TechStack techStack={project.techStack} />
+                    </div>
                     <div className="flex flex-row gap-1 justify-between">
                         {project?.sourceUrl ? (
                             <a

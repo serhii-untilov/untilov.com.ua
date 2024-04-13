@@ -7,7 +7,7 @@ export function MenuItem(props: MenuItemProps) {
     const href = `#${name}`;
     return (
         <li>
-            <a href={href} className="capitalize">
+            <a href={href} className="capitalize hover:text-blue-600">
                 {name}
             </a>
         </li>

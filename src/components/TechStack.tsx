@@ -8,7 +8,7 @@ export function TechStack(props: any) {
             // <div key={index} className="group relative w-max">
             <a href="#projects" key={index}>
                 <Image
-                    src={`/${element}.svg`}
+                    src={`/images/${element}.svg`}
                     alt={`${element} Logo`}
                     // className="hover:animate-bounce cursor-pointer"
                     className="hover:-translate-y-2 transition-all cursor-pointer"
