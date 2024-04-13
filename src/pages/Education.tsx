@@ -22,7 +22,7 @@ export function Education(cv: any) {
             <PageTitle className="text-md uppercase font-extrabold text-blue-600">
                 Courses
             </PageTitle>
-            <div className="flex flex-row flex-wrap justify-between">{generateCourses()}</div>
+            <div className="flex flex-row flex-wrap justify-center gap-16">{generateCourses()}</div>
         </div>
     );
 }

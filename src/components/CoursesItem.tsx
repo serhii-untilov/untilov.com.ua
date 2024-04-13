@@ -16,10 +16,10 @@ export function CoursesItem(props: any) {
     const { course } = props;
     const className =
         'flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2 border-gray-200 shadow-md justify-between gap-4' +
-        (course.certificateImage ? ' flex-12  justify-self-stretch' : ' flex-6');
+        (course.certificateImage ? ' basis-full' : ' basis-1/2');
 
     return (
-        <div>
+        <ConditionalLink href={course.certificateUrl}>
             <div className={className}>
                 <div className="flex flex-col gap-2 justify-between">
                     <h3 className="text-lg font-bold text-gray-800">{course.profile}</h3>
@@ -29,17 +29,15 @@ export function CoursesItem(props: any) {
                     </div>
                 </div>
                 {course.certificateImage ? (
-                    <ConditionalLink href={course.certificateUrl}>
-                        <Image
-                            src={course.certificateImage || '/CertificateHarvardX.png'}
-                            alt="Certificate image"
-                            className="rounded-2xl"
-                            width={310}
-                            height={250}
-                        />
-                    </ConditionalLink>
+                    <Image
+                        src={course.certificateImage || '/CertificateHarvardX.png'}
+                        alt="Certificate image"
+                        className="rounded-2xl"
+                        width={210}
+                        height={150}
+                    />
                 ) : null}
             </div>
-        </div>
+        </ConditionalLink>
     );
 }

@@ -27,7 +27,7 @@ export function EducationItem(props: any) {
                 {education.certificateImage ? (
                     <ConditionalLink href={education.certificateUrl}>
                         <Image
-                            src={education.certificateImage || '/CertificateHarvardX.png'}
+                            src={education.certificateImage || '/files/CertificateHarvardX.png'}
                             alt="Certificate image"
                             className="rounded-2xl opacity-50"
                             width={210}

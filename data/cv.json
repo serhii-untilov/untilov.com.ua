@@ -75,7 +75,7 @@
     "experience": [
         {
             "title": "Programmer, Team lead",
-            "image": "/team-leader.svg",
+            "image": "/images/team-leader.svg",
             "company": "Alliance Solution",
             "place": "Kyiv",
             "start": "jun 2021",
@@ -95,7 +95,7 @@
         },
         {
             "title": "Project manager",
-            "image": "/manager.svg",
+            "image": "/images/manager.svg",
             "company": "A5 Systems",
             "place": "Kyiv",
             "start": "feb 2019",
@@ -113,7 +113,7 @@
         },
         {
             "title": "Programmer",
-            "image": "/developer.svg",
+            "image": "/images/developer.svg",
             "company": "Raiffeisen Bank Aval",
             "place": "Kyiv",
             "start": "aug 2018",
@@ -130,7 +130,7 @@
         },
         {
             "title": "Programmer, Team lead",
-            "image": "/team-leader.svg",
+            "image": "/images/team-leader.svg",
             "company": "Intellect-Service",
             "place": "Kyiv",
             "start": "dec 2008",
@@ -157,7 +157,7 @@
                 "place": "Kyiv National Economic University (Ukraine)",
                 "start": "Sep 2002",
                 "finish": "Mar 2007",
-                "certificateImage": "/Masters-degree.svg",
+                "certificateImage": "/images/Masters-degree.svg",
                 "certificateUrl": ""
             }
         ],
@@ -167,7 +167,7 @@
                 "place": "HarvardX, an online learning initiative of Harvard University",
                 "start": "oct 2023",
                 "finish": "dec 2023",
-                "certificateImage": "/CertificateHarvardX.png",
+                "certificateImage": "/files/CertificateHarvardX.png",
                 "certificateUrl": "https://courses.edx.org/certificates/631ec2cdcc6145aabcc6d5674762f51c"
             },
             {
