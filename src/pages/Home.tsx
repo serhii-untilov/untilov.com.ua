@@ -88,7 +88,7 @@ export function Home(cv: any) {
                                         width={48}
                                         height={32}
                                         priority
-                                        className="mt-1 hover:shadow-xl"
+                                        className="mt-1"
                                     />
                                 </a>
                             </li>

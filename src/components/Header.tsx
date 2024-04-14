@@ -8,7 +8,7 @@ export function Header(props: any) {
     };
 
     return (
-        <header className="w-full h-20 fixed flex max-sm:flex-col justify-between align-middle text-gray-900 bg-white sm:px-2 md:px-12 mx-auto shadow-bottom z-10">
+        <header className="w-full h-20 fixed flex max-sm:flex-col justify-between align-middle text-gray-900 bg-white sm:px-2 md:px-12 mx-auto shadow-bottom z-50">
             <div id="name" className="my-auto">
                 <a href="#" className="hover:text-blue-600">
                     <h1 className="max-sm:w-full max-sm:text-center font-extrabold text-lg">

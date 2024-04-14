@@ -60,6 +60,7 @@
         {
             "title": "Payroll SMB",
             "description": "Payroll SMB application provides a solution for employers and employees to calculate salary and taxes based on laws for chosen country.",
+            "status": "In progress",
             "key-features": [
                 "Multi-tenant architecture",
                 "JWT authorization",
@@ -78,7 +79,7 @@
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
-            "demoUrl": "https://payroll/untilov.com.ua"
+            "demoUrl": ""
         }
     ],
     "experience": [

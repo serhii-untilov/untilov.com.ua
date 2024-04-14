@@ -21,7 +21,15 @@ export function Project(props: any) {
         <>
             <div className="flex flex-row justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md bg-white shadow-md">
                 <div className="flex flex-col gap-6 justify-between basis-1/2">
-                    <PageSubTitle>{project.title}</PageSubTitle>
+                    <div className="flex flex-row justify-between">
+                        <PageSubTitle>{project.title} </PageSubTitle>
+                        {project.status ? (
+                            <div className="p-2 inline text-sm -rotate-12 rounded border-dashed border-2 border-gray-500 font-bold text-gray-500 w-fit uppercase ">
+                                {project.status}
+                            </div>
+                        ) : null}
+                    </div>
+
                     <p className="text-black py-2">{project.description}</p>
                     <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul>
                     {/* <div className="my-auto whitespace-pre text-black">Tech Stack</div> */}
@@ -29,12 +37,8 @@ export function Project(props: any) {
                         <TechStack techStack={project.techStack} />
                     </div>
                     <div className="flex flex-row gap-4 justify-between pt-2">
-                        {project?.sourceUrl ? (
-                            <ButtonLink href={project?.sourceUrl}>Sources</ButtonLink>
-                        ) : null}
-                        {project?.demoUrl ? (
-                            <ButtonLink href={project?.demoUrl}>Demo</ButtonLink>
-                        ) : null}
+                        <ButtonLink href={project?.sourceUrl}>Sources</ButtonLink>
+                        <ButtonLink href={project?.demoUrl}>Demo</ButtonLink>
                     </div>
                 </div>
                 <div className=" basis-1/2 border-2 rounded-md p-1">
