@@ -1,7 +1,7 @@
 import Image from 'next/image';
+import { ButtonLink } from './ButtonLink';
 import { PageSubTitle } from './PageSubTitle';
 import { TechStack } from './TechStack';
-import { ButtonLink } from './ButtonLink';
 
 export function Project(props: any) {
     const { project } = props;
@@ -16,12 +16,13 @@ export function Project(props: any) {
             );
         });
     };
+
     return (
         <>
             <div className="flex flex-row justify-between gap-16 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md bg-white shadow-md">
-                <div className="flex flex-col gap-6 justify-between">
+                <div className="flex flex-col gap-6 justify-between basis-1/2">
                     <PageSubTitle>{project.title}</PageSubTitle>
-                    <p className="text-gray-700">{project.description}</p>
+                    <p className="text-black py-2">{project.description}</p>
                     <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul>
                     {/* <div className="my-auto whitespace-pre text-black">Tech Stack</div> */}
                     <div className="opacity-85">
@@ -36,11 +37,11 @@ export function Project(props: any) {
                         ) : null}
                     </div>
                 </div>
-                <div className="flex-none">
+                <div className=" basis-1/2 border-2 rounded-md p-1">
                     <Image
                         src={image}
                         alt={'Project image'}
-                        className="rounded-2xl"
+                        className="rounded-2xl flex-none"
                         width={410}
                         height={350}
                     />
