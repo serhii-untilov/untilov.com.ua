@@ -28,7 +28,7 @@ export function ExperienceItem(props: any) {
                             />
                         </div>
                         <div>
-                            <div className="flex flex-row justify-center py-8">
+                            <div className="flex flex-row justify-center py-4">
                                 <PageSubTitle>{experienceItem.title}</PageSubTitle>
                             </div>
                             <div className="flex flex-row gap-1 text-gray-700 justify-between">

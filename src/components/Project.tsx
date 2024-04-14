@@ -41,9 +41,12 @@ export function Project(props: any) {
                     <Image
                         src={image}
                         alt={'Project image'}
-                        className="rounded-2xl flex-none"
+                        className="rounded-2xl"
+                        // fill={true}
                         width={410}
                         height={350}
+                        // objectFit="cover"
+                        // layout="fill"
                     />
                 </div>
             </div>
