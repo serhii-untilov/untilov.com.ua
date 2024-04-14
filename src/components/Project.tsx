@@ -19,7 +19,7 @@ export function Project(props: any) {
 
     return (
         <>
-            <div className="flex flex-row justify-between gap-16 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md bg-white shadow-md">
+            <div className="flex flex-row justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md bg-white shadow-md">
                 <div className="flex flex-col gap-6 justify-between basis-1/2">
                     <PageSubTitle>{project.title}</PageSubTitle>
                     <p className="text-black py-2">{project.description}</p>
@@ -28,7 +28,7 @@ export function Project(props: any) {
                     <div className="opacity-85">
                         <TechStack techStack={project.techStack} />
                     </div>
-                    <div className="flex flex-row gap-4 justify-between">
+                    <div className="flex flex-row gap-4 justify-between pt-2">
                         {project?.sourceUrl ? (
                             <ButtonLink href={project?.sourceUrl}>Sources</ButtonLink>
                         ) : null}
