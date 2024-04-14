@@ -1,6 +1,7 @@
 import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
 import Image from 'next/image';
+import { extractFileName } from './Contact';
 
 export function Home(cv: any) {
     return (

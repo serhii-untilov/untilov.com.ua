@@ -14,28 +14,34 @@ function educationTitle(education: any) {
 
 export function EducationItem(props: any) {
     const { education } = props;
+    const className =
+        'flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2 border-gray-200 shadow-md justify-between gap-4' +
+        (education.certificateImage ? ' basis-full' : ' basis-1/2') +
+        (education.certificateUrl ? ' hover:border-blue-200' : '');
     return (
         <>
-            <div className="flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2 border-gray-200 shadow-md gap-4 justify-between">
-                <div className="flex flex-col gap-2 justify-between">
-                    <PageSubTitle>{educationTitle(education)}</PageSubTitle>
-                    <div>{education.place}</div>
-                    <div className="text-sm">
-                        {education.start} - {education.finish}
+            <ConditionalLink href={education.certificateUrl}>
+                <div className={className}>
+                    <div className="flex flex-col gap-2 justify-between">
+                        <PageSubTitle>{educationTitle(education)}</PageSubTitle>
+                        <div>{education.place}</div>
+                        <div className="text-sm">
+                            {education.start} - {education.finish}
+                        </div>
                     </div>
+                    {education.certificateImage ? (
+                        <ConditionalLink href={education.certificateUrl}>
+                            <Image
+                                src={education.certificateImage || '/files/CertificateHarvardX.png'}
+                                alt="Certificate image"
+                                className="rounded-2xl"
+                                width={210}
+                                height={150}
+                            />
+                        </ConditionalLink>
+                    ) : null}
                 </div>
-                {education.certificateImage ? (
-                    <ConditionalLink href={education.certificateUrl}>
-                        <Image
-                            src={education.certificateImage || '/files/CertificateHarvardX.png'}
-                            alt="Certificate image"
-                            className="rounded-2xl opacity-50"
-                            width={210}
-                            height={150}
-                        />
-                    </ConditionalLink>
-                ) : null}
-            </div>
+            </ConditionalLink>
         </>
     );
 }

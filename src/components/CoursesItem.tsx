@@ -16,7 +16,8 @@ export function CoursesItem(props: any) {
     const { course } = props;
     const className =
         'flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2 border-gray-200 shadow-md justify-between gap-4' +
-        (course.certificateImage ? ' basis-full' : ' basis-1/2');
+        (course.certificateImage ? ' basis-full' : ' basis-1/2') +
+        (course.certificateUrl ? ' hover:border-blue-200' : '');
 
     return (
         <ConditionalLink href={course.certificateUrl}>

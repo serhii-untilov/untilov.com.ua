@@ -19,7 +19,7 @@ export function ExperienceItem(props: any) {
             <div className="flex basis-1/2">
                 <div className="flex flex-col justify-between gap-1 m-4 p-6 rounded-md border-2 border-gray-200  shadow-md">
                     <div className="flex flex-col justify-start">
-                        <div className="mx-auto bg-blue-50 rounded-full m-2 w-32 h-32 flex justify-center">
+                        <div className="mx-auto bg-blue-50 rounded-full m-2 w-32 h-32 flex justify-center border-2 border-gray-200">
                             <Image
                                 src={experienceItem.image}
                                 alt="Experience Image"

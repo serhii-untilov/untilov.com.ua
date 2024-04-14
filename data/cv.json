@@ -10,15 +10,17 @@
     },
     "name": "Serhii Untilov",
     "status": [
-        "Open for work proposals",
-        "Open for job offers"
+        "Open for work proposals"
     ],
     "cv": "/files/CV-Serhii-Untilov.pdf",
-    "location": "Irpin, Ukraine",
+    "location": {
+        "label": "Irpin, Ukraine",
+        "link": "https://maps.app.goo.gl/bXcoY5bpEvbXiN7p9"
+    },
     "email": "s.untilov@gmail.com",
     "site": {
-        "link": "https://untilov.com.ua",
-        "label": "Untilov.com.ua"
+        "label": "Untilov.com.ua",
+        "link": "https://untilov.com.ua"
     },
     "job": "Full-stack Web Developer",
     "brief": "Hi, I'm Serhii Untilov. A Full-stack Web Developer based in Irpin, Ukraine.",
@@ -57,7 +59,14 @@
     "projects": [
         {
             "title": "Payroll SMB",
-            "description": "Payroll SMB application provides a solution for employers and employees to calculate salary and taxes based on laws for chosen country",
+            "description": "Payroll SMB application provides a solution for employers and employees to calculate salary and taxes based on laws for chosen country.",
+            "key-features": [
+                "Multi-tenant architecture",
+                "JWT authorization",
+                "Role-based access",
+                "Event-driven calculate processing",
+                "Automatic documents prepared according to the business process schedule"
+            ],
             "pageUrl": "",
             "techStack": [
                 "TypeScript",
@@ -69,7 +78,7 @@
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
-            "demoUrl": "https://github.com/serhii-untilov/Payroll"
+            "demoUrl": "https://payroll/untilov.com.ua"
         }
     ],
     "experience": [
@@ -157,7 +166,7 @@
                 "place": "Kyiv National Economic University (Ukraine)",
                 "start": "Sep 2002",
                 "finish": "Mar 2007",
-                "certificateImage": "/images/Masters-degree.svg",
+                "certificateImage": "/images/Masters-degree.png",
                 "certificateUrl": ""
             }
         ],
