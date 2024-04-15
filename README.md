@@ -37,5 +37,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## References
 
-- [**Load file** - How to Load Data from a File in Next.js](https://vercel.com/guides/loading-static-file-nextjs-api-route)
-- [**SVG icons** - Iconduck - free open source icons & illustrations](https://iconduck.com/)
+- [**Load File** - How to Load Data from a File in Next.js](https://vercel.com/guides/loading-static-file-nextjs-api-route)
+- [**SVG Icons** - Iconduck - free open source icons & illustrations](https://iconduck.com/)
+- [**Tailwind Icons** - Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS](https://heroicons.com/)
+- [**Burger Menu** - Creating an animated hamburger menu in NextJS & Tailwind CSS](https://jacobhocker.medium.com/creating-an-animated-hamburger-menu-in-nextjs-tailwind-css-9e332d428811)
+- [**Sliding Sidebar** - Making a Navigation Drawer/Sliding Sidebar with TailwindCSS (Blueprint)](https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l)
+- [**CSS** - Create interesting blob shapes with CSS](https://youtu.be/4ALLynsZ0u0?si=1w5mbR9XMBvme-O7)
+- [**CSS** - FANCY-BORDER-RADIUS](https://9elements.github.io/fancy-border-radius/)

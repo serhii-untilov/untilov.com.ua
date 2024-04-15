@@ -5,7 +5,7 @@ import { TechStack } from './TechStack';
 
 export function Project(props: any) {
     const { project } = props;
-    const image = `/${project?.title}.png`;
+    const image = `/images/${project?.title}.png`;
 
     const generateKeyFeatures = () => {
         return project['key-features'].map((element: string, index: number) => {

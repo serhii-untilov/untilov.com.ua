@@ -1,12 +1,11 @@
 import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
 import Image from 'next/image';
-import { extractFileName } from './Contact';
 
 export function Home(cv: any) {
     return (
         <div className="flex flex-col h-full justify-center gap-8">
-            <div className="flex flex-row justify-between gap-8">
+            <div className="flex flex-row justify-between gap-8 max-sm:flex-col-reverse">
                 <div className="flex flex-col gap-6">
                     <h2 className="text-5xl font-extrabold text-gray-800 max-w-sm leading-normal">
                         {cv.job}
@@ -66,19 +65,6 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null}
-                        {/* {cv['socialMedia'].facebook ? (
-                            <li>
-                                <a href={cv['socialMedia'].facebook}>
-                                    <Image
-                                        src="/images/facebook.svg"
-                                        alt="Facebook Logo"
-                                        width={32}
-                                        height={32}
-                                        priority
-                                    />
-                                </a>
-                            </li>
-                        ) : null} */}
                         {cv['socialMedia'].harvardx ? (
                             <li>
                                 <a href={cv['socialMedia'].harvardx}>
@@ -93,19 +79,6 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null}
-                        {/* {cv.email ? (
-                            <li>
-                                <a href={'mailto: ' + cv.email}>
-                                    <Image
-                                        src="/images/email.svg"
-                                        alt="Email Image"
-                                        width={32}
-                                        height={32}
-                                        priority
-                                    />
-                                </a>
-                            </li>
-                        ) : null} */}
                         <li className="pl-12">
                             <Status cv={cv} />
                         </li>

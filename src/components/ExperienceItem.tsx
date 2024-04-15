@@ -25,6 +25,7 @@ export function ExperienceItem(props: any) {
                                 alt="Experience Image"
                                 width={64}
                                 height={64}
+                                className="fill-blue-500"
                             />
                         </div>
                         <div>
