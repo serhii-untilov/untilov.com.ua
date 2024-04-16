@@ -1,3 +1,3 @@
-export function Skills(cv: any) {
+export default function Skills(cv: any) {
     return <h2>Skills</h2>;
 }

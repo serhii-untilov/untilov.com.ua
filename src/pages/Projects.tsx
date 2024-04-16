@@ -1,7 +1,7 @@
 import { PageTitle } from '@/components/PageTitle';
 import { Project } from '@/components/Project';
 
-export function Projects(cv: any) {
+export default function Projects(cv: any) {
     const generateProjects = () => {
         return cv?.projects?.map((element: any, index: number) => {
             return <Project key={index} project={element} className="text-gray-700" />;
