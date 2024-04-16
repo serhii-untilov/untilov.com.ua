@@ -2,7 +2,7 @@ import { CoursesItem } from '@/components/CoursesItem';
 import { EducationItem } from '@/components/EducationItem';
 import { PageTitle } from '@/components/PageTitle';
 
-export default function Education(cv: any) {
+export function Education(cv: any) {
     const generateMainEducation = () => {
         return cv?.education?.main?.map((element: any, index: number) => {
             return <EducationItem key={index} education={element} />;

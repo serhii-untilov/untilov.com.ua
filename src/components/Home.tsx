@@ -2,7 +2,7 @@ import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
 import Image from 'next/image';
 
-export default function Home(cv: any) {
+export function Home(cv: any) {
     return (
         <div className="flex flex-col h-full justify-center gap-8">
             <div className="flex flex-row justify-between gap-8 max-sm:flex-col-reverse">

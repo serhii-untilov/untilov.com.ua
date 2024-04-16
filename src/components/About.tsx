@@ -2,7 +2,7 @@ import { PageSubTitle } from '@/components/PageSubTitle';
 import { PageTitle } from '@/components/PageTitle';
 import Image from 'next/image';
 
-export default function About(cv: any) {
+export function About(cv: any) {
     const generateAbout = () => {
         return cv?.about?.description?.map((element: string, index: number) => {
             return <p key={index}>{element}</p>;

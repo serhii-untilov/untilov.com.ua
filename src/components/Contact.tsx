@@ -1,7 +1,7 @@
 import { PageTitle } from '@/components/PageTitle';
 import Image from 'next/image';
 
-export default function Contact(cv: any) {
+export function Contact(cv: any) {
     return (
         <div className="flex flex-col justify-start gap-8 flex-wrap min-h-screen">
             <PageTitle>Contact</PageTitle>

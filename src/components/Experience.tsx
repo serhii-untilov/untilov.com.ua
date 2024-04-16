@@ -1,7 +1,7 @@
 import { ExperienceItem } from '@/components/ExperienceItem';
 import { PageTitle } from '@/components/PageTitle';
 
-export default function Experience(cv: any) {
+export function Experience(cv: any) {
     const generateExperience = () => {
         return cv?.experience?.map((element: any, index: number) => {
             return (
