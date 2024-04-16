@@ -1,6 +1,5 @@
-import { PageTitle } from '@/components/PageTitle';
 import { ExperienceItem } from '@/components/ExperienceItem';
-import Image from 'next/image';
+import { PageTitle } from '@/components/PageTitle';
 
 export function Experience(cv: any) {
     const generateExperience = () => {

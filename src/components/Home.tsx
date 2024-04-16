@@ -39,9 +39,9 @@ export function Home(cv: any) {
                     </h2>
 
                     <ul className="flex flex-row gap-4 content-center">
-                        {cv['socialMedia'].linkedin ? (
+                        {cv.socialMedia.linkedin ? (
                             <li>
-                                <a href={cv['socialMedia'].linkedin}>
+                                <a href={cv.socialMedia.linkedin}>
                                     <Image
                                         src="/images/linkedin.svg"
                                         alt="LinkedIn Logo"
@@ -52,9 +52,9 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null}
-                        {cv['socialMedia'].github ? (
+                        {cv.socialMedia.github ? (
                             <li>
-                                <a href={cv['socialMedia'].github}>
+                                <a href={cv.socialMedia.github}>
                                     <Image
                                         src="/images/github.svg"
                                         alt="GitHub Logo"
@@ -65,9 +65,9 @@ export function Home(cv: any) {
                                 </a>
                             </li>
                         ) : null}
-                        {cv['socialMedia'].harvardx ? (
+                        {cv.socialMedia.harvardx ? (
                             <li>
-                                <a href={cv['socialMedia'].harvardx}>
+                                <a href={cv.socialMedia.harvardx}>
                                     <Image
                                         src="/images/harvardx.svg"
                                         alt="HarvardX Logo"

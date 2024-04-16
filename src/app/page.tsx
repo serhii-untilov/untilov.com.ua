@@ -1,12 +1,12 @@
 import { Header } from '@/components/Header';
 import { Section } from '@/components/Section';
-import { About } from '@/pages/About';
-import { Contact } from '@/pages/Contact';
-import { Education } from '@/pages/Education';
-import { Experience } from '@/pages/Experience';
-import { Home } from '@/pages/Home';
-import { Projects } from '@/pages/Projects';
-import { Skills } from '@/pages/Skills';
+import { About } from '@/components/About';
+import { Contact } from '@/components/Contact';
+import { Education } from '@/components/Education';
+import { Experience } from '@/components/Experience';
+import { Home } from '@/components/Home';
+import { Projects } from '@/components/Projects';
+import { Skills } from '@/components/Skills';
 import { promises as fs } from 'fs';
 
 const pagesMap: { [key: string]: (cv: any) => JSX.Element } = {
