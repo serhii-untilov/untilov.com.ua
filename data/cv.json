@@ -49,7 +49,7 @@
     "about": {
         "title": "Full-stack Web Developer based in Irpin, Ukraine",
         "description": [
-            "My name is Serhii, and I'm a Full-stack Web Developer. My mission is to create and develop fully functional, robust web applications for users.",
+            "My name is Serhii, and I'm a Full-stack Web Developer. My mission is to create and develop fully functional web applications.",
             "Currently, my main stack consists of React/Nest.js, combined with TypeScript, TypeORM, PostgreSQL, and Docker.",
             "I have over 10 years of experience developing web and desktop applications in product-oriented and project-oriented companies that provide B2B solutions for small and medium businesses and government agencies.",
             "I solved problems in complex schemes of relational databases and multi-tenant software architectures.",

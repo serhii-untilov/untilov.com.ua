@@ -28,19 +28,16 @@ export function Header(props: any) {
                     'max-sm:px-6',
                 ].join(' ')}
             >
-                <a href="#" className="text-gray-900 hover:text-blue-600 font-extrabold text-lg">
+                <a
+                    href="#"
+                    className="my-auto text-gray-900 hover:text-blue-600 font-extrabold text-lg"
+                >
                     {cv.site.label}
                 </a>
 
-                <div id="menu" className="font-semibold my-6 max-sm:sr-only">
-                    <ul
-                        className={
-                            'flex gap-4 flex-wrap max-sm:justify-center max-sm:gap-3 max-sm:leading-none max-sm:font-normal'
-                        }
-                    >
-                        {generateMenu()}
-                    </ul>
-                </div>
+                <ul className={'font-semibold my-auto max-sm:sr-only flex flex-wrap'}>
+                    {generateMenu()}
+                </ul>
 
                 <button
                     id="menu-button"
@@ -102,19 +99,11 @@ export function Header(props: any) {
                         stroke="currentColor"
                         className="w-8 h-8 hover:text-blue-500"
                     >
-                        {isOpen ? (
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M6 18 18 6M6 6l12 12"
-                            />
-                        ) : (
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                            />
-                        )}
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                        />
                     </svg>
                 </button>
             </aside>

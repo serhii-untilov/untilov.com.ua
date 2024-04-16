@@ -16,7 +16,7 @@ export function ExperienceItem(props: any) {
     };
     return (
         <>
-            <div className="flex basis-1/2">
+            <div className="flex basis-1/2 max-sm:basis-full">
                 <div className="flex flex-col justify-between gap-1 m-4 p-6 rounded-md border-2 border-gray-100 shadow-md bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40">
                     <div className="flex flex-col justify-start">
                         <div className="mx-auto bg-white rounded-full m-2 w-32 h-32 flex justify-center border-2 border-gray-200">
@@ -32,11 +32,11 @@ export function ExperienceItem(props: any) {
                             <div className="flex flex-row justify-center py-4">
                                 <PageSubTitle>{experienceItem.title}</PageSubTitle>
                             </div>
-                            <div className="flex flex-row gap-1 text-gray-700 justify-between">
-                                <div className="py-2">
+                            <div className="flex flex-row gap-1 text-gray-700 justify-between max-sm:flex-col">
+                                <div className="py-2 max-sm:text-center max-sm:py-0">
                                     {experienceItem.company}, {experienceItem.place}
                                 </div>
-                                <div className="py-2 text-sm">
+                                <div className="py-2 text-sm max-sm:text-center max-sm:py-0">
                                     {experienceItem.start} - {experienceItem.finish}
                                 </div>
                             </div>
@@ -46,8 +46,7 @@ export function ExperienceItem(props: any) {
                             <ul className="list-disc mx-8 mb-4">{generateResponsibilities()}</ul>
                         </div>
                     </div>
-                    <div className="flex justify-end opacity-85">
-                        {/* <div className="my-auto whitespace-pre text-black">Tech Stack</div> */}
+                    <div className="flex justify-center">
                         <TechStack techStack={experienceItem.techStack} />
                     </div>
                 </div>

@@ -6,7 +6,10 @@ interface PageTitleProps extends PropsWithChildren {
 
 export function PageTitle(props: PageTitleProps) {
     return (
-        <h2 className="mt-24 text-lg uppercase font-extrabold text-blue-500" {...props}>
+        <h2
+            className="text-lg uppercase font-extrabold text-blue-500 w-full max-sm:text-center"
+            {...props}
+        >
             {props.children}
         </h2>
     );

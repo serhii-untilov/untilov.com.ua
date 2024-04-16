@@ -10,10 +10,9 @@ export function TechStack(props: any) {
                 <Image
                     src={`/images/${element}.svg`}
                     alt={`${element} Logo`}
-                    // className="hover:animate-bounce cursor-pointer"
                     className="hover:-translate-y-2 transition-all cursor-pointer"
-                    width={50}
-                    height={50}
+                    width={40}
+                    height={40}
                     priority
                 />
             </a>
@@ -24,5 +23,9 @@ export function TechStack(props: any) {
             // </li>
         ));
     };
-    return <div className="my-auto flex flex-row gap-3 align-middle">{generateStack()}</div>;
+    return (
+        <div className="my-auto flex flex-row gap-3 align-middle flex-wrap justify-center">
+            {generateStack()}
+        </div>
+    );
 }

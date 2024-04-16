@@ -4,39 +4,14 @@ import Image from 'next/image';
 
 export function Home(cv: any) {
     return (
-        <div className="flex flex-col h-full justify-center gap-8">
-            <div className="flex flex-row justify-between gap-8 max-sm:flex-col-reverse">
-                <div className="flex flex-col gap-6">
-                    <h2 className="text-5xl font-extrabold text-gray-800 max-w-sm leading-normal">
+        <div className="flex flex-col h-screen justify-center max-sm:justify-normal max-sm:mx-4">
+            <div className="flex flex-row justify-between gap-8 max-sm:gap-0 max-sm:flex-col-reverse max-sm:justify-start">
+                <div className="flex flex-col justify-around basis-2/3 max-sm:basis-full">
+                    <h2 className="text-5xl font-extrabold text-gray-800 max-w-sm max-sm:text-center mb-4">
                         {cv.job}
-
-                        <span className="my-8">&nbsp;&nbsp;</span>
-                        <a href="#experience">
-                            <Image
-                                src="/images/waving-hand.svg"
-                                alt="Waving hand image"
-                                className="inline opacity-50 origin-bottom-right hover:rotate-12 transition-all cursor-pointer"
-                                width={62}
-                                height={62}
-                                priority
-                            />
-                        </a>
                     </h2>
 
-                    <h2 className="max-w-lg text-gray-700 text-lg mb-6">
-                        {cv.brief}
-                        <span className="my-8">&nbsp;&nbsp;&nbsp;</span>
-                        <a href="#contact">
-                            <Image
-                                src="/images/map-pin.svg"
-                                alt="Map pin image"
-                                className="inline opacity-50 hover:animate-bounce transition-all cursor-pointer"
-                                width={12}
-                                height={12}
-                                priority
-                            />
-                        </a>
-                    </h2>
+                    <h2 className="max-w-lg text-gray-700 text-lg mb-6">{cv.brief}</h2>
 
                     <ul className="flex flex-row gap-4 content-center">
                         {cv.socialMedia.linkedin ? (
@@ -84,21 +59,20 @@ export function Home(cv: any) {
                         </li>
                     </ul>
                 </div>
-                <div className="flex-none">
-                    <a href="#about">
-                        <Image
-                            src="/images/hero.png"
-                            alt={'Hero image'}
-                            className="animate-morph border-4 border-gray-700 brightness-125 shadow-2xl"
-                            width={300}
-                            height={300}
-                            priority
-                            quality={100}
-                        />
-                    </a>
-                </div>
+
+                <a href="#about" className="basis-1/3 max-sm:basis-full my-4 mx-auto">
+                    <Image
+                        src="/images/hero.png"
+                        alt={'Hero image'}
+                        className="animate-morph border-4 border-gray-700 brightness-125 shadow-2xl"
+                        width={300}
+                        height={300}
+                        priority
+                        quality={100}
+                    />
+                </a>
             </div>
-            <div className="flex flex-row gap-8 text-lg font-medium my-14">
+            <div className="flex flex-row gap-8 text-lg font-medium my-14 max-sm:flex-col">
                 <div className="my-auto whitespace-pre text-gray-900">Tech Stack</div>
                 <div className="text-gray-500 my-auto">|</div>
                 <TechStack techStack={cv.techStack} />
