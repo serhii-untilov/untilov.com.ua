@@ -29,7 +29,7 @@ export function EducationItem(props: any) {
         'gap-4',
         education.certificateImage ? ' basis-full' : ' basis-1/2',
         education.certificateUrl ? ' hover:border-blue-200' : '',
-        'max-sm:flex-col-reverse',
+        'max-md:flex-col-reverse',
     ].join(' ');
 
     return (
@@ -38,8 +38,8 @@ export function EducationItem(props: any) {
                 <div className={className}>
                     <div className="flex flex-col gap-2 justify-around">
                         <PageSubTitle>{educationTitle(education)}</PageSubTitle>
-                        <div className="max-sm:text-center">{education.place}</div>
-                        <div className="text-sm max-sm:text-center">
+                        <div className="max-md:text-center">{education.place}</div>
+                        <div className="text-sm max-md:text-center">
                             {education.start} - {education.finish}
                         </div>
                     </div>

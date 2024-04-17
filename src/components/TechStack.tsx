@@ -6,7 +6,7 @@ export function TechStack(props: any) {
     const generateStack = () => {
         return techStack?.map((element: string, index: number) => (
             // <div key={index} className="group relative w-max">
-            <a href="#projects" key={index}>
+            <a href="#projects" key={index} className="my-auto">
                 <Image
                     src={`/images/${element}.svg`}
                     alt={`${element} Logo`}
@@ -23,9 +23,5 @@ export function TechStack(props: any) {
             // </li>
         ));
     };
-    return (
-        <div className="my-auto flex flex-row gap-3 align-middle flex-wrap justify-center">
-            {generateStack()}
-        </div>
-    );
+    return <div className="flex flex-row gap-3 flex-wrap justify-center">{generateStack()}</div>;
 }

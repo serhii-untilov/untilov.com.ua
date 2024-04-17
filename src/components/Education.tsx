@@ -16,11 +16,11 @@ export function Education(cv: any) {
     };
 
     return (
-        <div className="flex flex-col h-full justify-center gap-8 max-sm:px-4">
+        <div className="flex flex-col h-full justify-center gap-8 max-md:px-4">
             <PageTitle>Education</PageTitle>
             {generateEducation()}
 
-            <PageTitle className="text-md uppercase font-extrabold text-blue-600 max-sm:text-center">
+            <PageTitle className="text-md uppercase font-extrabold text-blue-600 max-md:text-center">
                 Courses
             </PageTitle>
             <div className="flex flex-row flex-wrap justify-center gap-8">{generateCourses()}</div>

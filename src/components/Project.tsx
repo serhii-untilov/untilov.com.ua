@@ -20,12 +20,12 @@ export function Project(props: any) {
 
     return (
         <>
-            <div className="flex flex-row justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md bg-white shadow-md max-sm:flex-col-reverse">
-                <div className="flex flex-col gap-6 justify-between basis-1/2 max-sm:basis-full">
+            <div className="flex flex-row justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md bg-white shadow-md max-md:flex-col-reverse">
+                <div className="flex flex-col gap-6 justify-between basis-1/2 max-md:basis-full">
                     <div className="flex flex-row justify-between">
                         <PageSubTitle>{project.title} </PageSubTitle>
                         {project.status ? (
-                            <div className="p-2 inline text-sm -rotate-12 rounded border-dashed border-2 border-gray-500 font-bold text-gray-500 w-fit uppercase ">
+                            <div className="p-2 inline text-sm -rotate-12 rounded border-dashed border-2 border-gray-500 font-bold text-gray-500 w-fit uppercase text-center">
                                 {project.status}
                             </div>
                         ) : null}
@@ -43,7 +43,7 @@ export function Project(props: any) {
                     </div>
                 </div>
                 <ConditionalLink href={project?.demoUrl || project.sourceUrl}>
-                    <div className="basis-1/2 border-2 rounded-md p-1 max-sm:basis-full">
+                    <div className="basis-1/2 border-2 rounded-md p-1 max-md:basis-full">
                         <Image
                             src={image}
                             alt={'Project image'}

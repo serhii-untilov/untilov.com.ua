@@ -18,19 +18,19 @@ export function CoursesItem(props: any) {
         'flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2',
         'border-gray-200 shadow-md justify-around gap-4',
         course.certificateImage ? ' basis-full' : ' basis-1/2',
-        course.certificateUrl ? ' hover:border-blue-200' : '',
-        'max-sm:flex-col-reverse',
+        course.certificateUrl ? ' hover:bg-blue-50' : '',
+        'max-md:flex-col-reverse',
     ].join(' ');
 
     return (
         <ConditionalLink href={course.certificateUrl}>
             <div className={className}>
                 <div className="flex flex-col gap-2 justify-around">
-                    <h3 className="text-lg font-bold text-gray-800 max-sm:text-center">
+                    <h3 className="text-lg font-bold text-gray-800 max-md:text-center">
                         {course.profile}
                     </h3>
-                    <div className="max-sm:text-center">{course.place}</div>
-                    <div className="text-sm max-sm:text-center">
+                    <div className="max-md:text-center">{course.place}</div>
+                    <div className="text-sm max-md:text-center">
                         {course.start} - {course.finish}
                     </div>
                 </div>

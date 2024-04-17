@@ -9,7 +9,7 @@ export function Projects(cv: any) {
     };
 
     return (
-        <div className="flex flex-col h-full justify-center gap-8 max-sm:px-4">
+        <div className="flex flex-col h-full justify-center gap-8 max-md:px-4">
             <PageTitle>Projects</PageTitle>
             {generateProjects()}
         </div>

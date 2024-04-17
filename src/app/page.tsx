@@ -8,6 +8,7 @@ import { Home } from '@/components/Home';
 import { Projects } from '@/components/Projects';
 import { Skills } from '@/components/Skills';
 import { promises as fs } from 'fs';
+import { getCV } from '@/utils/cv';
 
 const pagesMap: { [key: string]: (cv: any) => JSX.Element } = {
     home: Home,
@@ -20,8 +21,7 @@ const pagesMap: { [key: string]: (cv: any) => JSX.Element } = {
 };
 
 export default async function Main() {
-    const file = await fs.readFile(process.cwd() + '/data/cv.json', 'utf8');
-    const cv = JSON.parse(file);
+    const cv = await getCV();
 
     const generatePages = (): JSX.Element[] => {
         const pageList = Object.keys(cv.pages)
