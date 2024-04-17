@@ -21,55 +21,61 @@ export function Header(props: any) {
 
     return (
         <>
-            <header
-                className={[
-                    'flex',
-                    'w-full',
-                    'h-16',
-                    'px-12',
-                    'fixed',
-                    'bg-white',
-                    'shadow-bottom',
-                    'z-40',
-                    'justify-between',
-                    'align-middle',
-                    'max-md:px-6',
-                ].join(' ')}
-            >
-                <a
-                    href="#"
-                    className="my-auto text-gray-900 hover:text-blue-600 font-extrabold text-lg"
+            <div className="relative">
+                <header
+                    className={[
+                        'flex',
+                        'w-full',
+                        'h-16',
+                        'px-12',
+                        'fixed top-0 left-0 right-0',
+                        'bg-white',
+                        'shadow-bottom',
+                        'z-40',
+                        'justify-between',
+                        'align-middle',
+                        'max-md:px-6',
+                    ].join(' ')}
                 >
-                    {cv.site.label}
-                </a>
-
-                <ul className={'font-semibold my-auto max-md:sr-only flex flex-wrap text-gray-900'}>
-                    {generateMenu()}
-                </ul>
-
-                <button
-                    id="menu-button"
-                    className="sr-only max-md:not-sr-only flex flex-col justify-center self-center"
-                    onClick={() => {
-                        setIsOpen(!isOpen);
-                    }}
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        stroke="currentColor"
-                        className="w-8 h-8 text-gray-900 hover:text-blue-500"
+                    <a
+                        href="#"
+                        className="my-auto text-gray-900 hover:text-blue-600 font-extrabold text-lg"
                     >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                        />
-                    </svg>
-                </button>
-            </header>
+                        {cv.site.label}
+                    </a>
+
+                    <ul
+                        className={
+                            'font-semibold my-auto max-md:sr-only flex flex-wrap text-gray-900'
+                        }
+                    >
+                        {generateMenu()}
+                    </ul>
+
+                    <button
+                        id="menu-button"
+                        className="sr-only max-md:not-sr-only flex flex-col justify-center self-center"
+                        onClick={() => {
+                            setIsOpen(!isOpen);
+                        }}
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth="2"
+                            stroke="currentColor"
+                            className="w-8 h-8 text-gray-900 hover:text-blue-500"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            />
+                        </svg>
+                    </button>
+                </header>
+            </div>
             <aside
                 className={[
                     isOpen ? 'translate-x-0' : '-translate-x-full',

@@ -15,7 +15,7 @@ export function Section(props: SectionProps) {
             className={[
                 'w-full min-h-fit',
                 index % 2 === 0 ? 'bg-gray-100' : 'bg-white',
-                !index ? 'h-screen max-md:h-fit max-md:pt-12' : 'h-fit',
+                !index ? 'h-screen max-lg:h-fit max-lg:pt-12' : 'h-fit pt-12',
             ].join(' ')}
         >
             <div className="w-full h-full max-w-5xl py-8 sm:p-2 md:p-12 mx-auto">{page}</div>

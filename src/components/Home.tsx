@@ -74,7 +74,7 @@ export function Home(cv: any) {
                     />
                 </a>
             </div>
-            <div className="flex flex-row text-lg font-medium my-14 max-md:flex-col">
+            <div className="flex flex-row text-lg font-medium my-14 max-lg:flex-col">
                 <div
                     className={[
                         'my-auto',
@@ -87,8 +87,8 @@ export function Home(cv: any) {
                         // 'max-md:border-b-2 max-md:border-r-0',
                         'max-md:pr-0',
                         'max-md:mx-auto',
-                        'max-md:pb-3',
-                        'max-md:mb-5',
+                        // 'max-lg:pb-3',
+                        'max-lg:mb-5',
                     ].join(' ')}
                 >
                     Tech Stack
