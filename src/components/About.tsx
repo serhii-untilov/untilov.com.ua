@@ -20,21 +20,21 @@ export function About(cv: any) {
                         width={410}
                         height={350}
                     />
-                    <div className="absolute -right-10 -bottom-20 rounded-full bg-white h-48 w-48 max-lg:sr-only">
+                    <div className="absolute -right-10 -bottom-20 rounded-full bg-white h-40 w-40 max-lg:sr-only">
                         <div className="relative w-full h-full">
                             <Image
                                 src="/images/ring-text.svg"
                                 alt={'Desk image'}
-                                className="absolute left-0 top-0 rounded-full h-48 w-48 animate-spinSlow m-auto p-2"
-                                width={200}
-                                height={200}
+                                className="absolute left-0 top-0 rounded-full h-40 w-40 animate-spinSlow m-auto p-2"
+                                width={160}
+                                height={160}
                             />
                             <Image
                                 src="/images/programmer.png"
                                 alt={'Desk image'}
                                 className="m-auto p-10"
-                                width={200}
-                                height={200}
+                                width={160}
+                                height={160}
                             />
                         </div>
                     </div>

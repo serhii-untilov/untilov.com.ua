@@ -29,14 +29,22 @@ export function CoursesItem(props: any) {
                     <h3 className="text-lg font-bold text-gray-800 max-md:text-center">
                         {course.profile}
                     </h3>
-                    <div className="max-md:text-center">{course.place}</div>
-                    <div className="text-sm max-md:text-center">
+                    <div className={course.certificateImage ? 'max-md:text-center' : 'text-center'}>
+                        {course.place}
+                    </div>
+                    <div
+                        className={
+                            course.certificateImage
+                                ? 'text-sm max-md:text-center'
+                                : 'text-sm text-center'
+                        }
+                    >
                         {course.start} - {course.finish}
                     </div>
                 </div>
                 {course.certificateImage ? (
                     <Image
-                        src={course.certificateImage || '/CertificateHarvardX.png'}
+                        src={course.certificateImage}
                         alt="Certificate image"
                         className="rounded-2xl mx-auto"
                         width={210}
