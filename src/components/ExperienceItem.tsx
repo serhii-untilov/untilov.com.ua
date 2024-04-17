@@ -19,12 +19,12 @@ export function ExperienceItem(props: any) {
             <div className="flex basis-1/2 max-md:basis-full">
                 <div className="w-full flex flex-col justify-between gap-1 m-4 p-6 rounded-md border-2 border-gray-100 shadow-md bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40">
                     <div className="flex flex-col justify-start">
-                        <div className="mx-auto bg-white rounded-full m-2 w-32 h-32 flex justify-center border-2 border-gray-200">
+                        <div className="mx-auto bg-white rounded-full m-2 w-24 h-24 flex justify-center border-2 border-gray-200">
                             <Image
                                 src={experienceItem.image}
                                 alt="Experience Image"
-                                width={64}
-                                height={64}
+                                width={56}
+                                height={56}
                                 className="fill-blue-500"
                             />
                         </div>

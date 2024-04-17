@@ -27,6 +27,7 @@ const config: Config = {
             },
             animation: {
                 morph: 'morph 8s ease-in-out infinite',
+                spinSlow: 'spin 24s linear infinite',
             },
             slantContainer: {
                 transform: 'skew(14deg)',

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="83.081917mm"
+   height="83.085831mm"
+   viewBox="0 0 83.081916 83.085831"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(3.0752045,27.116047)">
+    <path
+       style="fill:#3b82f6;fill-opacity:0.996078;stroke:#008080;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="path1"
+       d="M -7.6587022,82.587432 A 33.747024,33.747024 0 0 1 -40.124312,116.21161 33.747024,33.747024 0 0 1 -75.0477,85.147832 33.747024,33.747024 0 0 1 -45.437695,48.983643 33.747024,33.747024 0 0 1 -8.0931672,77.090372" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:1.29381px;word-spacing:0px;stroke-width:0.264583"
+       id="text1"
+       transform="translate(79.864256,-68.054464)"><textPath
+         xlink:href="#path1"
+         id="textPath1"><tspan
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">FULL-STACK WEB DEVELOPER</tspan></textPath></text>
+  </g>
+</svg>

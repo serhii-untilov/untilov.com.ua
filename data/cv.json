@@ -147,9 +147,9 @@
             "finish": "dec 2017",
             "description": "Development solutions for the IS-Pro ERP system",
             "responsibilities": [
-                "programming, team management, code reviewing, holding on presentations",
-                "solutions development in distributed system for State Fiscal Service of Ukraine",
-                "developing multiprocessing procedure of batch calculating for large organizations"
+                "programming, team management",
+                "code reviewing",
+                "holding on presentations"
             ],
             "techStack": [
                 "C",

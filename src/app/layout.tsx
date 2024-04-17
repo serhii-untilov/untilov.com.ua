@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] });
 const cv = await getCV();
 
 export const metadata: Metadata = {
-    title: cv.name,
-    description: cv.job,
+    title: `${cv.name} | ${cv.job}`,
+    description: `${cv.name} | ${cv.job}`,
 };
 
 export default function RootLayout({
