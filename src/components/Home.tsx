@@ -15,13 +15,13 @@ export function Home(cv: any) {
 
                     <ul className="flex flex-row gap-4 justify-self-center">
                         {cv.socialMedia.linkedin ? (
-                            <li>
+                            <li className="shrink-0">
                                 <a href={cv.socialMedia.linkedin}>
                                     <Image
                                         src="/images/linkedin.svg"
                                         alt="LinkedIn Logo"
-                                        width={32}
-                                        height={32}
+                                        width={36}
+                                        height={36}
                                         priority
                                         className="h-full my-auto"
                                     />
@@ -29,13 +29,13 @@ export function Home(cv: any) {
                             </li>
                         ) : null}
                         {cv.socialMedia.github ? (
-                            <li>
+                            <li className="shrink-0">
                                 <a href={cv.socialMedia.github}>
                                     <Image
                                         src="/images/github.svg"
                                         alt="GitHub Logo"
-                                        width={32}
-                                        height={32}
+                                        width={36}
+                                        height={36}
                                         priority
                                         className="h-full my-auto"
                                     />
@@ -43,20 +43,20 @@ export function Home(cv: any) {
                             </li>
                         ) : null}
                         {cv.socialMedia.harvardx ? (
-                            <li>
+                            <li className="shrink-0">
                                 <a href={cv.socialMedia.harvardx}>
                                     <Image
                                         src="/images/harvardx.svg"
                                         alt="HarvardX Logo"
                                         width={48}
-                                        height={32}
+                                        height={36}
                                         priority
                                         className="h-full my-auto"
                                     />
                                 </a>
                             </li>
                         ) : null}
-                        <li className="pl-12">
+                        <li className="pl-12 max-md:pl-4">
                             <Status cv={cv} />
                         </li>
                     </ul>
