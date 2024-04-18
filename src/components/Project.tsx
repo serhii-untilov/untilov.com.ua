@@ -48,11 +48,12 @@ export function Project(props: any) {
                             src={image}
                             alt={'Project image'}
                             className="rounded-2xl"
-                            // fill={true}
+                            // className="rounded-2xl hover:scale-150 object-contain h-64 w-96"
                             width={410}
+                            // width={1797}
                             height={350}
-                            // objectFit="cover"
-                            // layout="fill"
+                            // height={1283}
+                            quality={100}
                         />
                     </div>
                 </ConditionalLink>

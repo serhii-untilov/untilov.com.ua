@@ -6,7 +6,7 @@ export function TechStack(props: any) {
     const generateStack = () => {
         return techStack?.map((element: string, index: number) => (
             // <div key={index} className="group relative w-max">
-            <a href="#projects" key={index} className="my-auto">
+            <div key={index} className="my-auto">
                 <Image
                     src={`/images/${element}.svg`}
                     alt={`${element} Logo`}
@@ -15,7 +15,7 @@ export function TechStack(props: any) {
                     height={40}
                     priority
                 />
-            </a>
+            </div>
             // {/* <span className="pointer-events-none absolute -top-8 left-0 text-center w-max opacity-0 transition-opacity group-hover:opacity-100 text-sm text-gray-500">
             //     {element}
             // </span> */}
