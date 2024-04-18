@@ -1,3 +1,15 @@
+# Personal Website Template
+
+This template retrieves data from the 'data/cv.json' file.
+
+Simply fill in the file, start the application, and you'll have your own personalized website.
+
+In the next chapters, you'll learn how to deploy on Vercel.
+
+[Live demo](https://untilov-com-ua.vercel.app)
+
+## Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
