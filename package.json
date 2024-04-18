@@ -1,5 +1,16 @@
 {
   "name": "untilov.com.ua",
+  "description": "Personal Website Template",
+  "keywords": [
+    "personal",
+    "website",
+    "template",
+    "next js",
+    "tailwind",
+    "typescript"
+  ],
+  "homepage": "https://untilov-com-ua.vercel.app",
+  "author": "Serhii Untilov <s.untilov@gmail.com> (https://untilov.com.ua/)",
   "version": "0.1.0",
   "private": true,
   "scripts": {
