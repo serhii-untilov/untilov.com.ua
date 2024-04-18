@@ -64,7 +64,7 @@ export function Home(cv: any) {
 
                 <a href="#about" className="basis-1/3 max-md:basis-full my-4 mx-auto">
                     <Image
-                        src="/images/hero.png"
+                        src="/files/hero.png"
                         alt={'Hero image'}
                         className="animate-morph border-4 border-gray-700 brightness-125 shadow-2xl"
                         width={300}

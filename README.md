@@ -2,9 +2,16 @@
 
 This template retrieves data from the 'data/cv.json' file.
 
-Simply fill in the file, start the application, and you'll have your own personalized website.
+Simply fill in the file, then:
 
-In the next chapters, you'll learn how to deploy on Vercel.
+- replace images in 'public/files' directory
+- replace image 'public/favicon.svg
+- add images in 'public/images' directory if necessary
+- start the application
+
+and you'll have your own personalized website.
+
+In the next chapters, you'll learn how to deploy project on Vercel.
 
 [Live demo](https://untilov-com-ua.vercel.app)
 
