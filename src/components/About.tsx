@@ -16,11 +16,11 @@ export function About(cv: any) {
                     <Image
                         src="/images/desk.webp"
                         alt={'Desk image'}
-                        className="rounded-2xl border-2 border-gray-200 w-full"
+                        className="rounded-2xl border-2 border-gray-200 w-full max-w-fit max-md:mx-auto"
                         width={410}
                         height={350}
                     />
-                    <div className="absolute -right-10 -bottom-20 rounded-full bg-white h-40 w-40 max-lg:sr-only">
+                    <div className="absolute left-72 top-52 rounded-full bg-white h-40 w-40 max-sm:sr-only max-lg:left-96">
                         <div className="relative w-full h-full">
                             <Image
                                 src="/images/ring-text.svg"

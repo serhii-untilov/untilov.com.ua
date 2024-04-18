@@ -18,7 +18,7 @@ export function CoursesItem(props: any) {
         'flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2',
         'border-gray-200 shadow-md justify-around gap-4',
         course.certificateImage ? ' basis-full' : ' basis-1/2',
-        course.certificateUrl ? ' hover:bg-blue-50' : '',
+        course.certificateUrl ? ' hover:border-blue-200' : '',
         'max-md:flex-col-reverse',
     ].join(' ');
 
