@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { MenuItem } from './MenuItem';
+import Image from 'next/image';
 
 export function Header(props: any) {
     const { cv, menu } = props;
@@ -41,7 +42,14 @@ export function Header(props: any) {
                         href="#"
                         className="my-auto text-gray-900 hover:text-blue-600 font-extrabold text-lg"
                     >
-                        {cv.site.label}
+                        <Image
+                            src="/favicon.svg"
+                            alt={'Logo image'}
+                            className="rounded  w-fit inline mr-3"
+                            width={410}
+                            height={350}
+                        />
+                        <div className="h-full inline align-middle">{cv.site.label}</div>
                     </a>
 
                     <ul

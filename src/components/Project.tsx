@@ -33,7 +33,6 @@ export function Project(props: any) {
 
                     <p className="text-black py-2">{project.description}</p>
                     <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul>
-                    {/* <div className="my-auto whitespace-pre text-black">Tech Stack</div> */}
                     <div className="flex justify-center">
                         <TechStack techStack={project.techStack} />
                     </div>
@@ -48,11 +47,8 @@ export function Project(props: any) {
                             src={image}
                             alt={'Project image'}
                             className="rounded-2xl"
-                            // className="rounded-2xl hover:scale-150 object-contain h-64 w-96"
                             width={410}
-                            // width={1797}
                             height={350}
-                            // height={1283}
                             quality={100}
                         />
                     </div>

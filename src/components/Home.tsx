@@ -17,14 +17,6 @@ export function Home(cv: any) {
                         {cv.socialMedia.linkedin ? (
                             <li className="shrink-0">
                                 <a href={cv.socialMedia.linkedin}>
-                                    {/* <Image
-                                        src="/images/linkedin.svg"
-                                        alt="LinkedIn Logo"
-                                        width={36}
-                                        height={36}
-                                        priority
-                                        className="h-full my-auto"
-                                    /> */}
                                     <svg
                                         viewBox="0 0 24 24"
                                         className="w-9 h-full my-auto hover:fill-blue-500 hover:scale-105"
@@ -39,14 +31,6 @@ export function Home(cv: any) {
                         {cv.socialMedia.github ? (
                             <li className="shrink-0">
                                 <a href={cv.socialMedia.github}>
-                                    {/* <Image
-                                        src="/images/github.svg"
-                                        alt="GitHub Logo"
-                                        width={36}
-                                        height={36}
-                                        priority
-                                        className="h-full my-auto fill-blue-500 stroke-glue-500"
-                                    /> */}
                                     <svg
                                         viewBox="0 0 24 24"
                                         className="w-9 h-full my-auto hover:fill-blue-500 hover:scale-105"
@@ -62,23 +46,12 @@ export function Home(cv: any) {
                         {cv.socialMedia.harvardx ? (
                             <li className="shrink-0">
                                 <a href={cv.socialMedia.harvardx}>
-                                    {/* <Image
-                                        src="/images/harvardx.svg"
-                                        alt="HarvardX Logo"
-                                        width={48}
-                                        height={36}
-                                        priority
-                                        className="h-full my-auto hover:fill-blue-500"
-                                    /> */}
                                     <svg
                                         viewBox="0 0 552.88 310.72"
                                         className="w-12 h-full my-auto hover:fill-blue-500 hover:scale-105"
                                     >
                                         <g>
-                                            <polygon
-                                                // fill="#02262B"
-                                                points="353.43,50.96 364.08,0 51.3,0 0,245.01 261.52,245.01 247.12,310.72 497.63,310.72 552.88,50.96 "
-                                            />
+                                            <polygon points="353.43,50.96 364.08,0 51.3,0 0,245.01 261.52,245.01 247.12,310.72 497.63,310.72 552.88,50.96 " />
                                             <path
                                                 fill="#FFFFFF"
                                                 d="M106.6,213.73c-7.09,0-13.79-1.16-20.09-3.49c-6.3-2.32-11.8-5.75-16.49-10.28  c-4.69-4.53-8.39-10.1-11.11-16.72c-2.72-6.62-4.08-14.22-4.08-22.81c0-11.74,1.63-22.44,4.9-32.09  c3.27-9.65,7.82-17.92,13.65-24.82c5.83-6.89,12.82-12.23,20.98-16.01c8.15-3.78,17.08-5.67,26.77-5.67  c6.54,0,12.74,1.14,18.62,3.43c5.87,2.29,11.01,5.61,15.42,9.99c4.41,4.37,7.92,9.75,10.52,16.13c2.6,6.38,3.9,13.71,3.9,21.98  c0,1.26-0.04,2.74-0.12,4.43c-0.08,1.7-0.2,3.43-0.36,5.2c-0.16,1.77-0.32,3.51-0.47,5.2c-0.16,1.69-0.35,3.13-0.59,4.31H76.22  c-0.08,1.11-0.14,2.17-0.18,3.19c-0.04,1.03-0.06,2.09-0.06,3.19c0,6.54,0.95,12.11,2.84,16.72c1.89,4.61,4.35,8.37,7.39,11.29  c3.03,2.92,6.44,5.02,10.22,6.32c3.78,1.3,7.6,1.95,11.46,1.95c8.43,0,15.21-1.46,20.33-4.37c5.12-2.91,9.02-6.85,11.7-11.82h21.63  c-1.34,4.89-3.55,9.46-6.62,13.71c-3.07,4.25-6.95,7.94-11.64,11.05c-4.69,3.11-10.13,5.56-16.31,7.33  C120.8,212.84,114,213.73,106.6,213.73z M148.08,136.08c0.08-0.39,0.14-1.12,0.18-2.19c0.04-1.06,0.06-2.11,0.06-3.13  c0-4.18-0.61-8.14-1.83-11.88c-1.22-3.74-3.05-7.03-5.5-9.87c-2.44-2.84-5.48-5.08-9.1-6.74c-3.63-1.65-7.84-2.48-12.65-2.48  c-4.89,0-9.46,0.87-13.71,2.6c-4.26,1.73-8.12,4.2-11.58,7.39c-3.47,3.19-6.46,7.01-8.98,11.46c-2.52,4.45-4.53,9.4-6.03,14.83  H148.08z"
@@ -124,11 +97,8 @@ export function Home(cv: any) {
                         'pr-4',
                         'mr-2',
                         'text-center',
-                        // 'border-r-2 border-solid border-gray-500',
-                        // 'max-md:border-b-2 max-md:border-r-0',
                         'max-md:pr-0',
                         'max-md:mx-auto',
-                        // 'max-lg:pb-3',
                         'max-lg:mb-5',
                     ].join(' ')}
                 >
