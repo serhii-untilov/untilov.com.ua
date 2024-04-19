@@ -14,7 +14,7 @@ export function Section(props: SectionProps) {
             id={name}
             className={[
                 'w-full min-h-fit',
-                index % 2 === 0 ? 'bg-gray-100' : 'bg-white',
+                index % 2 === 0 ? 'bg-gray-50' : 'bg-white',
                 !index ? 'h-screen max-lg:h-fit max-lg:pt-12' : 'h-fit pt-12',
             ].join(' ')}
         >

@@ -40,7 +40,7 @@ export function Header(props: any) {
                 >
                     <a
                         href="#"
-                        className="my-auto text-gray-900 hover:text-blue-600 font-extrabold text-lg"
+                        className="my-auto text-gray-900 hover:text-blue-500 font-extrabold text-lg transition-all"
                     >
                         <div className="mr-3 inline">
                             <Image
@@ -75,7 +75,7 @@ export function Header(props: any) {
                             viewBox="0 0 24 24"
                             strokeWidth="2"
                             stroke="currentColor"
-                            className="w-8 h-8 text-gray-900 hover:text-blue-500"
+                            className="w-8 h-8 text-gray-900 hover:text-blue-500 transition-all"
                         >
                             <path
                                 strokeLinecap="round"
@@ -120,7 +120,7 @@ export function Header(props: any) {
                             viewBox="0 0 24 24"
                             strokeWidth="2"
                             stroke="currentColor"
-                            className="w-8 h-8 text-gray-900 hover:text-blue-500"
+                            className="w-8 h-8 text-gray-900 hover:text-blue-500 transition-all"
                         >
                             <path
                                 strokeLinecap="round"

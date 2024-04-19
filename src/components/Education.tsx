@@ -20,7 +20,7 @@ export function Education(cv: any) {
             <PageTitle>Education</PageTitle>
             {generateEducation()}
 
-            <PageTitle className="text-md uppercase font-extrabold text-blue-600 max-md:text-center">
+            <PageTitle className="text-md uppercase font-extrabold text-blue-500 max-md:text-center">
                 Courses
             </PageTitle>
             <div className="flex flex-row flex-wrap justify-center gap-8">{generateCourses()}</div>

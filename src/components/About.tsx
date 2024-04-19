@@ -20,7 +20,7 @@ export function About(cv: any) {
                         width={410}
                         height={350}
                     />
-                    <div className="absolute left-72 top-52 rounded-full bg-white h-40 w-40 max-sm:sr-only max-lg:left-96 border-2 border-solid border-white hover:scale-105 hover:border-blue-200">
+                    <div className="absolute left-72 top-52 rounded-full bg-white h-40 w-40 max-sm:sr-only max-lg:left-96 border-2 border-solid border-white hover:scale-105 hover:border-blue-200 transition-all">
                         <div className="relative w-full h-full">
                             <Image
                                 src="/images/ring-text.svg"

@@ -31,7 +31,7 @@ export function Project(props: any) {
                         ) : null}
                     </div>
 
-                    <p className="text-black py-2">{project.description}</p>
+                    <p className="text-gray-800 py-2">{project.description}</p>
                     <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul>
                     <div className="flex justify-center">
                         <TechStack techStack={project.techStack} />
@@ -42,7 +42,7 @@ export function Project(props: any) {
                     </div>
                 </div>
                 <ConditionalLink href={project?.demoUrl || project.sourceUrl}>
-                    <div className="basis-1/2 border-2 rounded-md p-1 max-md:basis-full hover:scale-105 hover:border-blue-200">
+                    <div className="basis-1/2 border-2 rounded-md p-1 max-md:basis-full hover:scale-105 transition-all hover:border-blue-200">
                         <Image
                             src={image}
                             alt={'Project image'}
