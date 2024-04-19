@@ -55,7 +55,7 @@ export function Header(props: any) {
                                 <Image
                                     src="/files/logo.png"
                                     alt={'Logo image'}
-                                    className="rounded m-auto inline"
+                                    className="rounded inline"
                                     width={32}
                                     height={32}
                                     quality={100}

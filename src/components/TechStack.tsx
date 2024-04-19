@@ -10,7 +10,7 @@ export function TechStack(props: any) {
                 <Image
                     src={`/images/${element}.svg`}
                     alt={`${element} Logo`}
-                    className="hover:-translate-y-2 transition-all cursor-pointer"
+                    className="hover:-translate-y-1 transition-all cursor-pointer"
                     width={40}
                     height={40}
                     priority
