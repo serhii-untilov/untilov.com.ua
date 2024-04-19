@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="8.4666624mm"
-   height="8.4666672mm"
-   viewBox="0 0 8.4666624 8.4666672"
+   width="16.933331mm"
+   height="16.933332mm"
+   viewBox="0 0 16.933331 16.933332"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,27 +12,27 @@
   <defs
      id="defs1" />
   <g
-     id="layer1"
-     transform="translate(-35.890561,-47.778956)">
+     id="g3"
+     transform="matrix(2.0000003,0,0,2.0000003,72.863717,45.795646)">
     <rect
        style="fill:#3b82f6;fill-opacity:0.996078;fill-rule:evenodd;stroke:#008080;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
        id="rect2"
        width="8.4666653"
        height="8.4666653"
-       x="35.89056"
-       y="47.778957"
+       x="-36.431854"
+       y="-22.89782"
        rx="0"
        ry="1.3408779" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.67366px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.188434"
-       x="44.060822"
-       y="44.576221"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.11552px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.172674"
+       x="-43.872051"
+       y="-13.156585"
        id="text2"
        transform="scale(0.82201055,1.2165294)"><tspan
          id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.67366px;font-family:Sans;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;fill:#f9f9f9;stroke-width:0.188434"
-         x="44.060822"
-         y="44.576221">un</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.11552px;font-family:Sans;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;fill:#f9f9f9;stroke-width:0.172674"
+         x="-43.872051"
+         y="-13.156585">Un</tspan></text>
   </g>
 </svg>

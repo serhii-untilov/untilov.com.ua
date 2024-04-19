@@ -44,9 +44,9 @@ export function Header(props: any) {
                     >
                         <div className="mr-3 inline">
                             <Image
-                                src="/files/Logo.svg"
+                                src="/favicon.svg"
                                 alt={'Logo image'}
-                                className="rounded  w-fit m-auto inline"
+                                className="rounded w-8 h-8 m-auto inline"
                                 width={32}
                                 height={32}
                             />
