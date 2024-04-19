@@ -62,6 +62,7 @@
             "status": "In progress",
             "key-features": [
                 "Multi-tenant architecture",
+                "Mono-repository",
                 "JWT authorization",
                 "Role-based access",
                 "Event-driven calculate processing",
@@ -75,6 +76,7 @@
                 "NestJS",
                 "TypeORM",
                 "Postgres",
+                "Turbo-repo",
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
@@ -89,7 +91,7 @@
             "place": "Kyiv",
             "start": "jun 2021",
             "finish": "present",
-            "description": "Tariffication, Payroll and WorkForce MS projects for Educational organizations of Kyiv City State Administration",
+            "description": "Tariffication, Payroll, and WorkForce MS projects for Educational organizations of Kyiv City State Administration",
             "responsibilities": [
                 "analysis of customer requirements",
                 "product design, project management",

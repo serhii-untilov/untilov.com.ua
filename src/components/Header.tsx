@@ -43,11 +43,11 @@ export function Header(props: any) {
                         className="my-auto text-gray-900 hover:text-blue-600 font-extrabold text-lg"
                     >
                         <Image
-                            src="/favicon.svg"
+                            src="/files/Logo.svg"
                             alt={'Logo image'}
                             className="rounded  w-fit inline mr-3"
-                            width={410}
-                            height={350}
+                            width={32}
+                            height={32}
                         />
                         <div className="h-full inline align-middle">{cv.site.label}</div>
                     </a>
