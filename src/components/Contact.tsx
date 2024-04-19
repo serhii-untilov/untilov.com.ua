@@ -10,7 +10,7 @@ export function Contact(cv: any) {
                     href={cv.location.link}
                     className="flex flex-row gap-2 align-middle max-md:flex-col max-md:mx-auto"
                 >
-                    <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50">
+                    <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50 hover:scale-105">
                         <Image src="/images/map.svg" alt="Location" width={28} height={28} />
                     </div>
                     <div className="flex flex-col justify-center h-fill">
@@ -22,7 +22,7 @@ export function Contact(cv: any) {
                     href={`mailto:${cv.email}?subject=Work Proposal`}
                     className="flex flex-row gap-2 align-middle max-md:flex-col max-md:mx-auto"
                 >
-                    <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 stroke-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50">
+                    <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 stroke-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50 hover:scale-105">
                         <Image
                             src="/images/email.svg"
                             alt="Email"
@@ -40,7 +40,7 @@ export function Contact(cv: any) {
                     href={cv.cv}
                     className="flex flex-row gap-2 align-middle max-md:flex-col max-md:mx-auto"
                 >
-                    <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50">
+                    <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50 hover:scale-105">
                         <Image
                             src="/images/pdf.svg"
                             alt="Download CV Image"
