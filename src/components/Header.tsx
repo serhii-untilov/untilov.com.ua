@@ -26,6 +26,8 @@ export function Header(props: any) {
                 <header
                     className={[
                         'flex',
+                        'justify-center',
+                        'align-middle',
                         'w-full',
                         'h-16',
                         'px-12',
@@ -33,58 +35,66 @@ export function Header(props: any) {
                         'bg-white',
                         'shadow-bottom',
                         'z-40',
-                        'justify-between',
-                        'align-middle',
                         'max-md:px-6',
+                        // 'max-w-screen-2xl',
                     ].join(' ')}
                 >
-                    <a
-                        href="#"
-                        className="my-auto text-gray-900 hover:text-blue-500 font-extrabold text-lg transition-all"
+                    <div
+                        className={[
+                            'flex',
+                            'w-full h-full max-w-screen-2xl',
+                            'justify-between',
+                            'align-middle',
+                        ].join(' ')}
                     >
-                        <div className="mr-3 inline">
-                            <Image
-                                src="/files/logo.png"
-                                alt={'Logo image'}
-                                className="rounded m-auto inline"
-                                width={32}
-                                height={32}
-                                quality={100}
-                            />
-                        </div>
-                        <div className="h-full inline align-middle">{cv.site.label}</div>
-                    </a>
-
-                    <ul
-                        className={
-                            'font-semibold my-auto max-md:sr-only flex flex-wrap text-gray-900'
-                        }
-                    >
-                        {generateMenu()}
-                    </ul>
-
-                    <button
-                        id="menu-button"
-                        className="sr-only max-md:not-sr-only flex flex-col justify-center self-center"
-                        onClick={() => {
-                            setIsOpen(!isOpen);
-                        }}
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth="2"
-                            stroke="currentColor"
-                            className="w-8 h-8 text-gray-900 hover:text-blue-500 transition-all"
+                        <a
+                            href="#"
+                            className="my-auto text-gray-900 hover:text-blue-500 font-extrabold text-lg transition-all"
                         >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                            />
-                        </svg>
-                    </button>
+                            <div className="mr-3 inline">
+                                <Image
+                                    src="/files/logo.png"
+                                    alt={'Logo image'}
+                                    className="rounded m-auto inline"
+                                    width={32}
+                                    height={32}
+                                    quality={100}
+                                />
+                            </div>
+                            <div className="h-full inline align-middle">{cv.site.label}</div>
+                        </a>
+
+                        <ul
+                            className={
+                                'font-semibold my-auto max-md:sr-only flex flex-wrap text-gray-900'
+                            }
+                        >
+                            {generateMenu()}
+                        </ul>
+
+                        <button
+                            id="menu-button"
+                            className="sr-only max-md:not-sr-only flex flex-col justify-center self-center"
+                            onClick={() => {
+                                setIsOpen(!isOpen);
+                            }}
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth="2"
+                                stroke="currentColor"
+                                className="w-8 h-8 text-gray-900 hover:text-blue-500 transition-all"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                                />
+                            </svg>
+                        </button>
+                    </div>
                 </header>
             </div>
             <aside
