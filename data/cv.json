@@ -99,8 +99,10 @@
             ],
             "techStack": [
                 "JavaScript",
+                "Python",
                 "UnityBase",
                 "ExtJS",
+                "ElectronJS",
                 "Postgres"
             ]
         },
@@ -135,8 +137,8 @@
             ],
             "techStack": [
                 "C",
-                "Oracle",
-                "Python"
+                "Python",
+                "Oracle"
             ]
         },
         {
