@@ -4,7 +4,7 @@ import { PageTitle } from '@/components/PageTitle';
 export function Experience(cv: any) {
     const generateExperience = () => {
         return cv?.experience?.map((element: any, index: number) => {
-            return <ExperienceItem key={index} experienceItem={element} />;
+            return <ExperienceItem key={index} experienceItem={element} index={index} />;
         });
     };
 
