@@ -8,15 +8,15 @@ export function Project(props: any) {
     const { project } = props;
     const image = `/images/${project?.title}.png`;
 
-    const generateKeyFeatures = () => {
-        return project['key-features'].map((element: string, index: number) => {
-            return (
-                <li key={index} className="text-gray-700">
-                    {element}
-                </li>
-            );
-        });
-    };
+    // const generateKeyFeatures = () => {
+    //     return project['key-features'].map((element: string, index: number) => {
+    //         return (
+    //             <li key={index} className="text-gray-700">
+    //                 {element}
+    //             </li>
+    //         );
+    //     });
+    // };
 
     return (
         <>
@@ -32,7 +32,7 @@ export function Project(props: any) {
                     </div>
 
                     <p className="text-gray-800 py-2">{project.description}</p>
-                    <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul>
+                    {/* <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul> */}
                     <div className="flex justify-center">
                         <TechStack techStack={project.techStack} />
                     </div>
