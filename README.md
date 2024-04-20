@@ -63,3 +63,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [**Sliding Sidebar** - Making a Navigation Drawer/Sliding Sidebar with TailwindCSS (Blueprint)](https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l)
 - [**CSS** - Create interesting blob shapes with CSS](https://youtu.be/4ALLynsZ0u0?si=1w5mbR9XMBvme-O7)
 - [**CSS** - FANCY-BORDER-RADIUS](https://9elements.github.io/fancy-border-radius/)
+- [**Tailwind** - How to create tooltip with React and TailwindCSS](https://ahmadrosid.com/blog/react-tailwind-tooltip)

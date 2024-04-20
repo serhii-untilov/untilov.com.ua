@@ -53,7 +53,7 @@ export function Header(props: any) {
                         >
                             <div className="mr-3 inline">
                                 <Image
-                                    src="/files/logo.png"
+                                    src="/favicon.svg"
                                     alt={'Logo image'}
                                     className="rounded inline"
                                     width={32}

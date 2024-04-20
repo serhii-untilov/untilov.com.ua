@@ -76,7 +76,7 @@
                 "NestJS",
                 "TypeORM",
                 "Postgres",
-                "Turbo-repo",
+                "Turborepo",
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
@@ -99,11 +99,11 @@
             ],
             "techStack": [
                 "JavaScript",
-                "Python",
                 "UnityBase",
                 "ExtJS",
+                "Postgres",
                 "ElectronJS",
-                "Postgres"
+                "Python"
             ]
         },
         {
@@ -137,8 +137,7 @@
             ],
             "techStack": [
                 "C",
-                "Python",
-                "Oracle"
+                "Python"
             ]
         },
         {
@@ -157,7 +156,7 @@
             "techStack": [
                 "C",
                 "C++",
-                "Oracle",
+                "Oracle DBMS",
                 "MS SQL Server"
             ]
         }
