@@ -85,7 +85,7 @@ export function Home(cv: any) {
                         {cv.socialMedia.harvardx ? (
                             <li className="shrink-0 my-auto">
                                 <a href={cv.socialMedia.harvardx}>
-                                    <Tooltip message="HarvardX Verified Certificate">
+                                    <Tooltip message="HarvardX">
                                         <svg
                                             viewBox="0 0 552.88 310.72"
                                             className="w-12 h-full my-auto hover:fill-blue-500 hover:scale-105 transition-all"
