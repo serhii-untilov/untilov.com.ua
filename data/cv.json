@@ -103,6 +103,7 @@
                 "UnityBase",
                 "ExtJS",
                 "Postgres",
+                "MS SQL Server",
                 "SQL",
                 "ElectronJS",
                 "Python"
@@ -125,6 +126,7 @@
                 "Confluence",
                 "Jira",
                 "SQL",
+                "MS SQL Server",
                 "ElectronJS",
                 "Python"
             ]
