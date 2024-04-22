@@ -11,8 +11,8 @@ export function TechStack(props: any) {
                     src={`/images/${element}.svg`}
                     alt={`${element} Logo`}
                     className="hover:-translate-y-1 transition-all cursor-pointer my-auto"
-                    width={40}
-                    height={40}
+                    width={38}
+                    height={38}
                     priority
                 />
             </Tooltip>

@@ -45,7 +45,8 @@
         "SQL",
         "Postgres",
         "Docker",
-        "Python"
+        "Python",
+        "Linux"
     ],
     "about": {
         "title": "Full-stack Web Developer based in Irpin, Ukraine",
@@ -105,8 +106,8 @@
                 "Postgres",
                 "ElectronJS",
                 "SQL",
-                "MS SQL Server",
-                "Python"
+                "Python",
+                "Linux"
             ]
         },
         {
@@ -145,7 +146,8 @@
             ],
             "techStack": [
                 "C",
-                "Python"
+                "Python",
+                "Linux"
             ]
         },
         {
