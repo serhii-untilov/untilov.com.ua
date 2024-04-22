@@ -100,12 +100,12 @@
             ],
             "techStack": [
                 "JavaScript",
-                "UnityBase",
                 "ExtJS",
+                "UnityBase",
                 "Postgres",
-                "MS SQL Server",
-                "SQL",
                 "ElectronJS",
+                "SQL",
+                "MS SQL Server",
                 "Python"
             ]
         },
@@ -125,9 +125,10 @@
             "techStack": [
                 "Confluence",
                 "Jira",
+                "JavaScript",
+                "ElectronJS",
                 "SQL",
                 "MS SQL Server",
-                "ElectronJS",
                 "Python"
             ]
         },
