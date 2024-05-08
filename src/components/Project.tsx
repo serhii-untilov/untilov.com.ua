@@ -49,11 +49,12 @@ export function Project(props: any) {
                     </div>
                 </div>
                 <ConditionalLink href={project?.demoUrl || project.sourceUrl}>
-                    <div className="basis-1/2 border-2 rounded-md max-md:basis-full hover:scale-105 transition-all border-white hover:border-blue-200">
+                    <div className="basis-1/2 max-md:basis-full">
                         <Image
                             src={image}
                             alt={'Project image'}
-                            className="rounded-md"
+                            // className="rounded-md"
+                            className="basis-1/2 border-2 rounded-md max-md:basis-full hover:scale-105 transition-all border-white hover:border-blue-200 mx-auto"
                             width={410}
                             height={350}
                             quality={100}
