@@ -49,13 +49,13 @@ export function Header(props: any) {
                     >
                         <a
                             href="#"
-                            className="my-auto text-gray-900 hover:text-blue-500 font-extrabold text-lg transition-all"
+                            className="group my-auto text-gray-900 hover:text-blue-500 font-extrabold text-lg transition-all"
                         >
-                            <div className="mr-3 inline">
+                            <div className="mr-5 inline">
                                 <Image
                                     src="/favicon.svg"
                                     alt={'Logo image'}
-                                    className="rounded inline max-lg:animate-rotate hover:animate-rotate"
+                                    className="rounded inline max-lg:animate-rotate group-hover:animate-rotate"
                                     width={32}
                                     height={32}
                                     quality={100}
