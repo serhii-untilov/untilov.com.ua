@@ -23,8 +23,8 @@ export function Project(props: any) {
             <div
                 className={
                     (!!(index % 2)
-                        ? 'flex flex-row-reverse bg-gradient-to-l from-white to-gray-100'
-                        : 'flex flex-row bg-gradient-to-r from-white to-gray-100') +
+                        ? 'flex flex-row-reverse bg-white'
+                        : 'flex flex-row bg-gray-200') +
                     ' justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md shadow-md max-md:flex-col-reverse'
                 }
             >
