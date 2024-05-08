@@ -82,7 +82,8 @@
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
-            "demoUrl": ""
+            "demoUrl": "",
+            "demoType": "Demo coming soon"
         },
         {
             "skip": "false",
@@ -104,7 +105,33 @@
                 "Tailwind CSS"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/untilov.com.ua",
-            "demoUrl": "https://untilov-com-ua.vercel.app/"
+            "demoUrl": "https://untilov-com-ua.vercel.app/",
+            "demoType": "Live Demo"
+        },
+        {
+            "skip": "false",
+            "title": "Multi Export",
+            "description": "The 'Multi Export' application, which prepares files for importing into the 'A5 Systems' database.",
+            "status": "",
+            "key-features": [
+                "just fill in the cv.json file, then",
+                "replace images in 'public/files' directory",
+                "replace image 'public/favicon.svg",
+                "add images in 'public/images' directory if necessary",
+                "start the application",
+                "deploy project on Vercel"
+            ],
+            "pageUrl": "",
+            "techStack": [
+                "JavaScript",
+                "ElectronJS",
+                "SQL",
+                "Postgres",
+                "MS SQL Server"
+            ],
+            "sourceUrl": "https://github.com/serhii-untilov/multi-export",
+            "demoUrl": "https://drive.google.com/open?id=11c8HZv5hzv3u0xsF8NN3OAd92KyPLYqf",
+            "demoType": "Download Demo"
         }
     ],
     "experience": [

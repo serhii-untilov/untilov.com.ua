@@ -45,7 +45,9 @@ export function Project(props: any) {
                     </div>
                     <div className="flex flex-row gap-4 justify-between pt-2">
                         <ButtonLink href={project?.sourceUrl}>Sources</ButtonLink>
-                        <ButtonLink href={project?.demoUrl}>Demo</ButtonLink>
+                        <ButtonLink href={project?.demoUrl}>
+                            {project?.demoType || 'Demo'}
+                        </ButtonLink>
                     </div>
                 </div>
                 <ConditionalLink href={project?.demoUrl || project.sourceUrl}>
