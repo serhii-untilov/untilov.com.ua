@@ -26,10 +26,10 @@ const config: Config = {
                 },
                 rotate: {
                     '0%': { rotate: '30deg' },
-                    '20%': { rotate: '60deg', scale: '1' },
+                    '20%': { rotate: '60deg', scale: '1.1' },
                     '40%': { rotate: '120deg', scale: '1.1' },
                     '60%': { rotate: '180deg', scale: '1.2' },
-                    '80%': { rotate: '240deg', scale: '1.1' },
+                    '80%': { rotate: '240deg', scale: '1.2' },
                     '100%': { rotate: '360deg', scale: '1' },
                 },
             },
