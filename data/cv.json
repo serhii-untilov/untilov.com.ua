@@ -99,8 +99,8 @@
             "pageUrl": "",
             "techStack": [
                 "TypeScript",
-                "Tailwind CSS",
-                "Next.js"
+                "Next.js",
+                "Tailwind CSS"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/untilov.com.ua",
             "demoUrl": "https://untilov-com-ua.vercel.app/"
