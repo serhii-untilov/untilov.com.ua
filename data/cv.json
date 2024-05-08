@@ -111,7 +111,7 @@
         {
             "skip": "false",
             "title": "Multi Export",
-            "description": "The 'Multi Export' application, which prepares files for importing into the 'A5 Systems' database.",
+            "description": "The MultiExport application exports data from accounting systems databases and prepares files for importing into the 'A5 Systems' database.",
             "status": "",
             "key-features": [
                 "just fill in the cv.json file, then",
