@@ -86,6 +86,7 @@
             "demoType": "Preview"
         },
         {
+            "skip": "true",
             "title": "CS50W Capstone project",
             "description": "Capstone project for CS50's course 'Web Programming with Python and JavaScript'",
             "status": "",
@@ -125,7 +126,7 @@
             ],
             "sourceUrl": "https://github.com/serhii-untilov/untilov.com.ua",
             "demoUrl": "https://untilov-com-ua.vercel.app/",
-            "demoType": "Live Demo"
+            "demoType": "Demo"
         },
         {
             "skip": "false",
@@ -150,7 +151,7 @@
             ],
             "sourceUrl": "https://github.com/serhii-untilov/multi-export",
             "demoUrl": "https://drive.google.com/open?id=11c8HZv5hzv3u0xsF8NN3OAd92KyPLYqf",
-            "demoType": "Download Demo"
+            "demoType": "Download"
         }
     ],
     "experience": [
