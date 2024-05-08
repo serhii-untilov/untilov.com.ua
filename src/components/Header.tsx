@@ -55,7 +55,7 @@ export function Header(props: any) {
                                 <Image
                                     src="/favicon.svg"
                                     alt={'Logo image'}
-                                    className="rounded inline hover:animate-rotate"
+                                    className="rounded inline max-md:animate-rotate hover:animate-rotate"
                                     width={32}
                                     height={32}
                                     quality={100}
