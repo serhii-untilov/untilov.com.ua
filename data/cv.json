@@ -83,6 +83,27 @@
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
             "demoUrl": ""
+        },
+        {
+            "title": "Personal Website Template",
+            "description": "This template retrieves data from a 'cv.json' file and displays it on a structured personal website.",
+            "status": "",
+            "key-features": [
+                "just fill in the cv.json file, then",
+                "replace images in 'public/files' directory",
+                "replace image 'public/favicon.svg",
+                "add images in 'public/images' directory if necessary",
+                "start the application",
+                "deploy project on Vercel"
+            ],
+            "pageUrl": "",
+            "techStack": [
+                "TypeScript",
+                "Tailwind CSS",
+                "Next.js"
+            ],
+            "sourceUrl": "https://github.com/serhii-untilov/untilov.com.ua",
+            "demoUrl": "https://untilov-com-ua.vercel.app/"
         }
     ],
     "experience": [

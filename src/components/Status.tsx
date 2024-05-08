@@ -1,7 +1,7 @@
 export function Status(props: any) {
     const { cv } = props;
 
-    if (!cv?.status?.length) {
+    if (!cv?.status?.reduce((a: number, b: string) => a + b.length, 0)) {
         return <></>;
     }
 

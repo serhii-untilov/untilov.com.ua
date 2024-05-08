@@ -4,7 +4,9 @@ import { Project } from '@/components/Project';
 export function Projects(cv: any) {
     const generateProjects = () => {
         return cv?.projects?.map((element: any, index: number) => {
-            return <Project key={index} project={element} className="text-gray-700" />;
+            return (
+                <Project key={index} project={element} index={index} className="text-gray-700" />
+            );
         });
     };
 

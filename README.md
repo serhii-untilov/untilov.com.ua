@@ -1,8 +1,8 @@
 # Personal Website Template
 
-This template retrieves data from the 'data/cv.json' file.
+This template retrieves data from a 'cv.json' file and displays it on a structured personal website.
 
-Simply fill in the file, then:
+Just fill in the file, then:
 
 - replace images in 'public/files' directory
 - replace image 'public/favicon.svg
