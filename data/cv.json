@@ -103,7 +103,7 @@
             ],
             "sourceUrl": "https://github.com/me50/serhii-untilov",
             "demoUrl": "",
-            "demoType": ""
+            "demoType": "Demo"
         },
         {
             "skip": "false",
@@ -125,7 +125,7 @@
                 "Tailwind CSS"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/untilov.com.ua",
-            "demoUrl": "https://untilov-com-ua.vercel.app/",
+            "demoUrl": "",
             "demoType": "Demo"
         },
         {
@@ -150,7 +150,7 @@
                 "MS SQL Server"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/multi-export",
-            "demoUrl": "https://drive.google.com/open?id=11c8HZv5hzv3u0xsF8NN3OAd92KyPLYqf",
+            "demoUrl": "",
             "demoType": "Download"
         }
     ],
