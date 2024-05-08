@@ -24,10 +24,19 @@ const config: Config = {
                     '75%': { borderRadius: '70% 30% 60% 40%/40% 70% 30% 30%' },
                     '100%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' },
                 },
+                rotate: {
+                    '0%': { rotate: '30deg' },
+                    '20%': { rotate: '60deg', scale: '1' },
+                    '40%': { rotate: '120deg', scale: '1.1' },
+                    '60%': { rotate: '180deg', scale: '1.2' },
+                    '80%': { rotate: '240deg', scale: '1.1' },
+                    '100%': { rotate: '360deg', scale: '1' },
+                },
             },
             animation: {
                 morph: 'morph 8s ease-in-out infinite',
                 spinSlow: 'spin 24s linear infinite',
+                rotate: 'rotate 0.5s linear',
             },
             slantContainer: {
                 transform: 'skew(14deg)',
