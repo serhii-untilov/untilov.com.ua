@@ -22,7 +22,7 @@ export function ExperienceItem(props: any) {
                     'max-md:basis-full',
                 ].join(' ')}
             >
-                <div className="w-full flex flex-col justify-between gap-1 m-4 p-6 rounded-md border-2 border-white shadow-md bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40">
+                <div className="w-full flex flex-col justify-between gap-1 m-4 p-6 rounded-md border-2 border-white shadow-md bg-gray-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40">
                     <div className="flex flex-col justify-start">
                         <div className="mx-auto bg-white rounded-full m-0 w-24 h-24 flex justify-center border-2 border-gray-200">
                             <Image

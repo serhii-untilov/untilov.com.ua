@@ -23,9 +23,9 @@ export function Project(props: any) {
             <div
                 className={
                     (!!(index % 2)
-                        ? 'flex flex-row-reverse bg-gradient-to-l from-white to-gray-100'
-                        : 'flex flex-row bg-gradient-to-r from-white to-gray-100') +
-                    ' justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-gray-200 p-6 rounded-md shadow-md max-md:flex-col-reverse'
+                        ? 'flex flex-row-reverse bg-gradient-to-l from-white to-gray-200'
+                        : 'flex flex-row bg-gradient-to-r from-white to-gray-200') +
+                    ' justify-between gap-8 grow-0 shrink-0 border-2 border-solid border-white p-6 rounded-md shadow-md max-md:flex-col-reverse'
                 }
             >
                 <div className="flex flex-col gap-6 justify-between basis-1/2 max-md:basis-full">
@@ -49,7 +49,7 @@ export function Project(props: any) {
                     </div>
                 </div>
                 <ConditionalLink href={project?.demoUrl || project.sourceUrl}>
-                    <div className="basis-1/2 border-2 rounded-md max-md:basis-full hover:scale-105 transition-all hover:border-blue-200">
+                    <div className="basis-1/2 border-2 rounded-md max-md:basis-full hover:scale-105 transition-all border-white hover:border-blue-200">
                         <Image
                             src={image}
                             alt={'Project image'}
