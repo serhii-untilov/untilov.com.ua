@@ -3,11 +3,18 @@ import { Project } from '@/components/Project';
 
 export function Projects(cv: any) {
     const generateProjects = () => {
-        return cv?.projects?.map((element: any, index: number) => {
-            return (
-                <Project key={index} project={element} index={index} className="text-gray-700" />
-            );
-        });
+        return cv?.projects
+            ?.filter((project: any) => !(project?.skip === 'true'))
+            ?.map((project: any, index: number) => {
+                return (
+                    <Project
+                        key={index}
+                        project={project}
+                        index={index}
+                        className="text-gray-700"
+                    />
+                );
+            });
     };
 
     return (
