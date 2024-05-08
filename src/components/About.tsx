@@ -11,7 +11,7 @@ export function About(cv: any) {
 
     return (
         <div className="flex flex-row justify-between h-full gap-16 max-md:flex-col mx-4 max-md:justify-center max-md:gap-8">
-            <div className="basis-1/2 max-md:basis-full">
+            <div className="basis-1/2 max-md:basis-full max-md:sr-only">
                 <a href="#projects" className="relative">
                     <Image
                         src="/images/desk.webp"
