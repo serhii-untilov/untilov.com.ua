@@ -85,7 +85,7 @@
             "demoUrl": ""
         },
         {
-            "skip": "true",
+            "skip": "false",
             "title": "Personal Website Template",
             "description": "This template retrieves data from a 'cv.json' file and displays it on a structured personal website.",
             "status": "",
