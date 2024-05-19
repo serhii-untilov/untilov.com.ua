@@ -7,7 +7,11 @@ interface ConditionalLinkProps extends PropsWithChildren {
 export function ConditionalLink(props: ConditionalLinkProps) {
     const { href, children } = props;
     if (href) {
-        return <a href={href}>{children}</a>;
+        return (
+            <a href={href} target="_blank">
+                {children}
+            </a>
+        );
     } else {
         return <div>{children}</div>;
     }

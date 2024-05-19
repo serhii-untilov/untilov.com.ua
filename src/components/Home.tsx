@@ -17,7 +17,7 @@ export function Home(cv: any) {
                     <ul className="flex flex-row gap-4 justify-self-center">
                         {cv.socialMedia.linkedin ? (
                             <li className="shrink-0 my-auto">
-                                <a href={cv.socialMedia.linkedin}>
+                                <a href={cv.socialMedia.linkedin} target="_blank">
                                     <Tooltip message="LinkedIn">
                                         <svg
                                             viewBox="0 0 24 24"
@@ -33,7 +33,7 @@ export function Home(cv: any) {
                         ) : null}
                         {cv.socialMedia.github ? (
                             <li className="shrink-0 my-auto">
-                                <a href={cv.socialMedia.github}>
+                                <a href={cv.socialMedia.github} target="_blank">
                                     <Tooltip message="Github">
                                         <svg
                                             viewBox="0 0 24 24"
@@ -50,7 +50,7 @@ export function Home(cv: any) {
                         ) : null}
                         {/* {cv.cv ? (
                             <li className="shrink-0 my-auto">
-                                <a href={cv.cv}>
+                                <a href={cv.cv} target='_blank'>
                                     <Tooltip message="Download CV">
                                         <svg
                                             viewBox="0 0 5.2916665 5.291667"
@@ -84,7 +84,7 @@ export function Home(cv: any) {
                         ) : null} */}
                         {cv.socialMedia.harvardx ? (
                             <li className="shrink-0 my-auto">
-                                <a href={cv.socialMedia.harvardx}>
+                                <a href={cv.socialMedia.harvardx} target="_blank">
                                     <Tooltip message="HarvardX">
                                         <svg
                                             viewBox="0 0 552.88 310.72"
