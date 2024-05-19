@@ -8,6 +8,7 @@ export function Contact(cv: any) {
             <div className="flex flex-row gap-8 justify-between flex-wrap max-md:flex-col">
                 <a
                     href={cv.location.link}
+                    target="_blank"
                     className="flex flex-row gap-2 align-middle max-md:flex-col max-md:mx-auto"
                 >
                     <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50 hover:scale-105 transition-all">
@@ -20,6 +21,7 @@ export function Contact(cv: any) {
                 </a>
                 <a
                     href={`mailto:${cv.email}?subject=Work Proposal`}
+                    target="_blank"
                     className="flex flex-row gap-2 align-middle max-md:flex-col max-md:mx-auto"
                 >
                     <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 stroke-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50 hover:scale-105 transition-all">
@@ -38,6 +40,7 @@ export function Contact(cv: any) {
                 </a>
                 <a
                     href={cv.cv}
+                    target="_blank"
                     className="flex flex-row gap-2 align-middle max-md:flex-col max-md:mx-auto"
                 >
                     <div className="rounded-full p-3 m-auto drop-shadow-md bg-white fill-blue-500 border-2 border-gray-100 hover:border-blue-200 hover:bg-blue-50 hover:scale-105 transition-all">
