@@ -108,7 +108,7 @@
         {
             "skip": "false",
             "title": "Personal Website Template",
-            "description": "A personal website that retrieves data from a 'cv.json' file.",
+            "description": "A personal website template that retrieves data from a 'cv.json' file.",
             "status": "",
             "key-features": [
                 "just fill in the cv.json file, then",
