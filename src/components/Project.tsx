@@ -44,7 +44,7 @@ export function Project(props: any) {
                         <TechStack techStack={project.techStack} />
                     </div>
                     <div className="flex flex-row gap-4 justify-center pt-2">
-                        <ButtonLink href={project?.sourceUrl}>Sources</ButtonLink>
+                        <ButtonLink href={project?.sourceUrl}>Code</ButtonLink>
                         {project?.demoUrl || project.demoType ? (
                             <ButtonLink href={project?.demoUrl}>
                                 {project?.demoType || 'Demo'}
