@@ -60,7 +60,7 @@
     "projects": [
         {
             "title": "Payroll SMB",
-            "description": "The Payroll SMB application provides a solution for employers and employees to calculate salaries and taxes based on the laws of the chosen country.",
+            "description": "Calculating salaries for small and medium businesses.",
             "status": "In progress",
             "key-features": [
                 "Multi-tenant architecture",
@@ -108,7 +108,7 @@
         {
             "skip": "false",
             "title": "Personal Website Template",
-            "description": "This template retrieves data from a 'cv.json' file and displays it on a structured personal website.",
+            "description": "A personal website that retrieves data from a 'cv.json' file.",
             "status": "",
             "key-features": [
                 "just fill in the cv.json file, then",
@@ -131,7 +131,7 @@
         {
             "skip": "false",
             "title": "Multi Export",
-            "description": "The MultiExport application exports data from accounting systems databases and prepares files for importing into the 'A5 Systems' database.",
+            "description": "Export data from the accounting systems' databases and prepare files for import into the 'A5 Solutions' database.",
             "status": "",
             "key-features": [
                 "just fill in the cv.json file, then",
