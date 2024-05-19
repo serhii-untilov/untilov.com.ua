@@ -118,7 +118,7 @@
                 "start the application",
                 "deploy project on Vercel"
             ],
-            "pageUrl": "",
+            "pageUrl": "https://untilov-com-ua.vercel.app/",
             "techStack": [
                 "TypeScript",
                 "Next.js",
