@@ -118,14 +118,14 @@
                 "start the application",
                 "deploy project on Vercel"
             ],
-            "pageUrl": "https://untilov-com-ua.vercel.app/",
+            "pageUrl": "",
             "techStack": [
                 "TypeScript",
                 "Next.js",
                 "Tailwind CSS"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/untilov.com.ua",
-            "demoUrl": "",
+            "demoUrl": "https://untilov-com-ua.vercel.app/",
             "demoType": "Demo"
         },
         {
