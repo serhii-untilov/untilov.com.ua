@@ -70,7 +70,7 @@
                 "Event-driven calculate processing",
                 "Automatic documents prepared according to the business process schedule"
             ],
-            "pageUrl": "",
+            "pageUrl": "https://payroll.untilov.com.ua",
             "techStack": [
                 "TypeScript",
                 "React",
@@ -82,7 +82,7 @@
                 "Docker"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/Payroll",
-            "demoUrl": "",
+            "demoUrl": "https://payroll.untilov.com.ua",
             "demoType": "Preview"
         },
         {
