@@ -15,9 +15,11 @@ In the next chapters, you'll learn how to deploy project on Vercel.
 
 [Live demo](https://untilov-com-ua.vercel.app)
 
-## Quick start
+## Quick Start
 
+``` bash
 curl -s https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/scripts/download-and-run | bash
+```
 
 ## Project
 
