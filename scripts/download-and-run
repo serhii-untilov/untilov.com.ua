@@ -1,0 +1,22 @@
+#!/bin/sh
+cd ~
+if ! [ -d ./untilov.com.ua ]; then
+    echo "The ./untilov.com.ua folder does not exist. Let's create it."
+    mkdir untilov.com.ua
+fi
+cd untilov.com.ua
+echo 'Downloading scripts:'
+curl -O -S --progress-bar https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/docker-compose.yml
+curl -O -S --progress-bar https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/start
+curl -O -S --progress-bar https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/stop
+curl -O -S --progress-bar https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/update
+curl -O -S --progress-bar https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/logs
+curl -O -S --progress-bar https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/stats
+chmod +x ./start
+chmod +x ./stop
+chmod +x ./update
+chmod +x ./logs
+chmod +x ./stats
+./stop
+docker compose pull
+./start

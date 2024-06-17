@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -s https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/scripts/download-and-run | bash

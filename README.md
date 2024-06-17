@@ -15,6 +15,10 @@ In the next chapters, you'll learn how to deploy project on Vercel.
 
 [Live demo](https://untilov-com-ua.vercel.app)
 
+## Quick start
+
+curl -s https://raw.githubusercontent.com/serhii-untilov/untilov.com.ua/master/scripts/download-and-run | bash
+
 ## Project
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -64,3 +68,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [**CSS** - Create interesting blob shapes with CSS](https://youtu.be/4ALLynsZ0u0?si=1w5mbR9XMBvme-O7)
 - [**CSS** - FANCY-BORDER-RADIUS](https://9elements.github.io/fancy-border-radius/)
 - [**Tailwind** - How to create tooltip with React and TailwindCSS](https://ahmadrosid.com/blog/react-tailwind-tooltip)
+- [**Docker** - How to Dockerize a Next.js Application Using Docker for Beginners](https://dev.to/markusmp/how-to-dockerize-a-nextjs-application-using-docker-for-beginners-5hi8)
+- [**Next.js** - Deploying](https://nextjs.org/docs/pages/building-your-application/deploying)
