@@ -8,6 +8,6 @@ services:
     image: untilov/personal-site
     restart: always
     expose:
-      - 3001
+      - 3000
     ports:
-      - 3001:3001
+      - 3001:3000
