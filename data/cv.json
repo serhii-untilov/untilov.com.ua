@@ -156,7 +156,7 @@
     ],
     "experience": [
         {
-            "title": "Programmer, Team lead",
+            "title": "Full-stack Web Developer, Team lead",
             "image": "/images/team-leader.svg",
             "company": "Alliance Solution",
             "place": "Kyiv",
@@ -203,7 +203,7 @@
             ]
         },
         {
-            "title": "Programmer",
+            "title": "C++ developer",
             "image": "/images/developer.svg",
             "company": "Raiffeisen Bank Aval",
             "place": "Kyiv",
@@ -220,7 +220,7 @@
             ]
         },
         {
-            "title": "Programmer, Team lead",
+            "title": "C++ developer, Team lead",
             "image": "/images/team-leader.svg",
             "company": "Intellect-Service",
             "place": "Kyiv",
