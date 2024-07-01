@@ -4,7 +4,7 @@ import { ConditionalLink } from './ConditionalLink';
 
 function educationTitle(education: any) {
     if (education.degree && education.profile) {
-        return `${education.degree} of ${education.profile}`;
+        return `${education.degree} in ${education.profile}`;
     }
     if (education.degree) {
         return education.degree;
