@@ -6,7 +6,7 @@ const EducationTitle = ({ education }) => {
     if (education.degree && education.profile) {
         return `${education.degree} in ${education.profile}`;
     }
-    return education.degree && education.profile;
+    return education.degree ?? education.profile;
 };
 
 export default EducationTitle;

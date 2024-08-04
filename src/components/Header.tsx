@@ -3,8 +3,8 @@
 import { useMemo, useState } from 'react';
 import AppTitle from './AppTitle';
 import MenuItem from './ui/MenuItem';
-import MenuButton from './MenuButton';
-import CloseMenuButton from './CloseMenuButton';
+import MenuButton from './ui/MenuButton';
+import CloseMenuButton from './ui/CloseMenuButton';
 
 export function Header({ cv }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ export function Header({ cv }) {
                         }}
                     />
                 )),
-        [cv.pages],
+        [cv?.pages],
     );
 
     return (

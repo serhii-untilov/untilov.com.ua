@@ -8,7 +8,6 @@ export type SectionProps = {
 
 const Section = (props: SectionProps) => {
     const { name, index, page } = props;
-
     return (
         <div
             id={name}

@@ -4,11 +4,11 @@ import Image from 'next/image';
 import GitHub from '../components/GitHub';
 import HarvardX from '../components/HarvardX';
 import LinkedIn from '../components/LinkedIn';
+import HeroImage from '@/components/HeroImage';
 
 const Home = ({ cv }) => {
     return (
         <>
-            {' '}
             {cv && (
                 <div className="flex flex-col h-full justify-center max-sm:justify-normal max-sm:mx-4">
                     <div className="flex flex-row justify-between gap-8 max-sm:gap-0 max-sm:flex-col-reverse max-sm:justify-start">
@@ -43,15 +43,7 @@ const Home = ({ cv }) => {
                         </div>
 
                         <a href="#about" className="basis-1/3 max-sm:basis-full my-4 mx-auto">
-                            <Image
-                                src="/files/hero.png"
-                                alt={'Hero image'}
-                                className="animate-morph border-4 border-gray-700 brightness-125 shadow-2xl"
-                                width={280}
-                                height={280}
-                                priority
-                                quality={100}
-                            />
+                            <HeroImage />
                         </a>
                     </div>
                     <div className="flex flex-row text-lg font-medium my-14 max-lg:flex-col">

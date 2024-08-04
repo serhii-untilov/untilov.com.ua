@@ -6,7 +6,6 @@ import { PageTitle } from '@/components/PageTitle';
 const Contact = ({ cv }) => {
     return (
         <>
-            {' '}
             {cv && (
                 <div className="flex flex-col justify-start gap-8 flex-wrap min-h-screen px-4">
                     <PageTitle>Contact</PageTitle>

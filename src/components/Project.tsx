@@ -1,23 +1,11 @@
-import Image from 'next/image';
-import { ButtonLink } from './ui/ButtonLink';
 import { PageSubTitle } from './PageSubTitle';
-import { TechStack } from './TechStack';
-import { ConditionalLink } from './ui/ConditionalLink';
 import ProjectImage from './ProjectImage';
+import { TechStack } from './TechStack';
+import { ButtonLink } from './ui/ButtonLink';
+import { ConditionalLink } from './ui/ConditionalLink';
 
 export function Project({ project, index }) {
     const image = `/images/${project?.title}.png`;
-
-    // const generateKeyFeatures = () => {
-    //     return project['key-features'].map((element: string, index: number) => {
-    //         return (
-    //             <li key={index} className="text-gray-700">
-    //                 {element}
-    //             </li>
-    //         );
-    //     });
-    // };
-
     return (
         <>
             <div
