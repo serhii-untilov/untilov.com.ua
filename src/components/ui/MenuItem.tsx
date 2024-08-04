@@ -3,7 +3,7 @@ export type MenuItemProps = {
     onSelect: () => void;
 };
 
-export function MenuItem(props: MenuItemProps) {
+const MenuItem = (props: MenuItemProps) => {
     const { name, onSelect } = props;
     const href = `#${name}`;
     return (
@@ -19,4 +19,6 @@ export function MenuItem(props: MenuItemProps) {
             </a>
         </li>
     );
-}
+};
+
+export default MenuItem;

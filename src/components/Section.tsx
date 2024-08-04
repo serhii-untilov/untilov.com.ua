@@ -6,7 +6,7 @@ export type SectionProps = {
     page: ReactNode;
 };
 
-export function Section(props: SectionProps) {
+const Section = (props: SectionProps) => {
     const { name, index, page } = props;
 
     return (
@@ -21,4 +21,6 @@ export function Section(props: SectionProps) {
             <div className="w-full h-full max-w-5xl py-8 sm:p-2 md:p-12 mx-auto">{page}</div>
         </div>
     );
-}
+};
+
+export default Section;

@@ -1,7 +1,7 @@
 import { ExperienceItem } from '@/components/ExperienceItem';
 import { PageTitle } from '@/components/PageTitle';
 
-export function Experience(cv: any) {
+const Experience = ({ cv }) => {
     const generateExperience = () => {
         return cv?.experience?.map((element: any, index: number) => {
             return <ExperienceItem key={index} experienceItem={element} index={index} />;
@@ -14,4 +14,6 @@ export function Experience(cv: any) {
             <div className="flex flex-row flex-wrap z-10">{generateExperience()}</div>
         </div>
     );
-}
+};
+
+export default Experience;

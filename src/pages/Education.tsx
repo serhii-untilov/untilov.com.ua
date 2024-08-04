@@ -1,8 +1,8 @@
 import { CoursesItem } from '@/components/CoursesItem';
-import { EducationItem } from '@/components/EducationItem';
+import EducationItem from '@/components/EducationItem';
 import { PageTitle } from '@/components/PageTitle';
 
-export function Education(cv: any) {
+const Education = ({ cv }) => {
     const generateEducation = () => {
         return cv?.education?.main?.map((element: any, index: number) => {
             return <EducationItem key={index} education={element} />;
@@ -26,4 +26,6 @@ export function Education(cv: any) {
             <div className="flex flex-row flex-wrap justify-center gap-8">{generateCourses()}</div>
         </div>
     );
-}
+};
+
+export default Education;

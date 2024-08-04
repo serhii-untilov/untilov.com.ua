@@ -1,19 +1,12 @@
 import { PageTitle } from '@/components/PageTitle';
 import { Project } from '@/components/Project';
 
-export function Projects(cv: any) {
+const Projects = ({ cv }) => {
     const generateProjects = () => {
         return cv?.projects
             ?.filter((project: any) => !(project?.skip === 'true'))
             ?.map((project: any, index: number) => {
-                return (
-                    <Project
-                        key={index}
-                        project={project}
-                        index={index}
-                        className="text-gray-700"
-                    />
-                );
+                return <Project key={index} project={project} index={index} />;
             });
     };
 
@@ -23,4 +16,6 @@ export function Projects(cv: any) {
             {generateProjects()}
         </div>
     );
-}
+};
+
+export default Projects;

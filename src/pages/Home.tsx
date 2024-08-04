@@ -1,12 +1,11 @@
 import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
 import Image from 'next/image';
-import Tooltip from './Tooltip';
-import HarvardX from './HarvardX';
-import GitHub from './GitHub';
-import LinkedIn from './LinkedIn';
+import GitHub from '../components/GitHub';
+import HarvardX from '../components/HarvardX';
+import LinkedIn from '../components/LinkedIn';
 
-export function Home(cv: any) {
+const Home = ({ cv }) => {
     return (
         <div className="flex flex-col h-full justify-center max-sm:justify-normal max-sm:mx-4">
             <div className="flex flex-row justify-between gap-8 max-sm:gap-0 max-sm:flex-col-reverse max-sm:justify-start">
@@ -18,21 +17,21 @@ export function Home(cv: any) {
                     <h2 className="text-gray-700 text-lg mb-6">{cv.brief}</h2>
 
                     <ul className="flex flex-row gap-4 justify-self-center">
-                        {cv.socialMedia.linkedin ? (
+                        {cv?.socialMedia?.linkedin && (
                             <li className="shrink-0 my-auto">
                                 <LinkedIn cv={cv} />
                             </li>
-                        ) : null}
-                        {cv.socialMedia.github ? (
+                        )}
+                        {cv?.socialMedia?.github && (
                             <li className="shrink-0 my-auto">
                                 <GitHub cv={cv} />
                             </li>
-                        ) : null}
-                        {cv.socialMedia.harvardx ? (
+                        )}
+                        {cv?.socialMedia?.harvardx && (
                             <li className="shrink-0 my-auto">
                                 <HarvardX cv={cv} />
                             </li>
-                        ) : null}
+                        )}
 
                         <li className="pl-12 max-sm:pl-4">
                             <Status cv={cv} />
@@ -74,4 +73,6 @@ export function Home(cv: any) {
             </div>
         </div>
     );
-}
+};
+
+export default Home;

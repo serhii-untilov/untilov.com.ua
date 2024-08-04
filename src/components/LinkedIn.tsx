@@ -1,6 +1,6 @@
-import Tooltip from './Tooltip';
+import Tooltip from './ui/Tooltip';
 
-export default function LinkedIn({ cv }: { cv: any }) {
+const LinkedIn = ({ cv }) => {
     return (
         <a href={cv.socialMedia.linkedin} target="_blank">
             <Tooltip message="LinkedIn">
@@ -15,4 +15,6 @@ export default function LinkedIn({ cv }: { cv: any }) {
             </Tooltip>
         </a>
     );
-}
+};
+
+export default LinkedIn;

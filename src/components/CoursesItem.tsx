@@ -1,19 +1,7 @@
-import Image from 'next/image';
-import { PageSubTitle } from './PageSubTitle';
-import { ConditionalLink } from './ConditionalLink';
+import CertificateImage from './CertificateImage';
+import { ConditionalLink } from './ui/ConditionalLink';
 
-function educationTitle(education: any) {
-    if (education.degree && education.profile) {
-        return `${education.degree} of ${education.profile}`;
-    }
-    if (education.degree) {
-        return education.degree;
-    }
-    return education.profile;
-}
-
-export function CoursesItem(props: any) {
-    const { course } = props;
+export function CoursesItem({ course }) {
     const className = [
         'flex flex-row text-gray-700 rounded-md my-4 p-6 bg-white border-2',
         'border-gray-200 shadow-md justify-around gap-4 transition-all',
@@ -42,15 +30,7 @@ export function CoursesItem(props: any) {
                         {course.start} - {course.finish}
                     </div>
                 </div>
-                {course.certificateImage ? (
-                    <Image
-                        src={course.certificateImage}
-                        alt="Certificate image"
-                        className="rounded-2xl mx-auto"
-                        width={210}
-                        height={150}
-                    />
-                ) : null}
+                <CertificateImage image={course?.certificateImage} />
             </div>
         </ConditionalLink>
     );

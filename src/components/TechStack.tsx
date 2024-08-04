@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ReactNode } from 'react';
-import Tooltip from './Tooltip';
+import Tooltip from './ui/Tooltip';
 
 export function TechStack(props: any) {
     const { techStack } = props;

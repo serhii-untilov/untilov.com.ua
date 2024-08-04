@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import { ButtonLink } from './ButtonLink';
+import { ButtonLink } from './ui/ButtonLink';
 import { PageSubTitle } from './PageSubTitle';
 import { TechStack } from './TechStack';
-import { ConditionalLink } from './ConditionalLink';
+import { ConditionalLink } from './ui/ConditionalLink';
+import ProjectImage from './ProjectImage';
 
-export function Project(props: any) {
-    const { project, index } = props;
+export function Project({ project, index }) {
     const image = `/images/${project?.title}.png`;
 
     // const generateKeyFeatures = () => {
@@ -39,7 +39,6 @@ export function Project(props: any) {
                     </div>
 
                     <p className="text-gray-800 py-2">{project.description}</p>
-                    {/* <ul className="list-disc mx-8 mb-4">{generateKeyFeatures()}</ul> */}
                     <div className="flex justify-center">
                         <TechStack techStack={project.techStack} />
                     </div>
@@ -54,15 +53,7 @@ export function Project(props: any) {
                 </div>
                 <ConditionalLink href={project?.demoUrl || project.sourceUrl}>
                     <div className="basis-1/2 max-md:basis-full">
-                        <Image
-                            src={image}
-                            alt={'Project image'}
-                            // className="rounded-md"
-                            className="basis-1/2 border-2 rounded-md max-md:basis-full hover:scale-105 transition-all border-white hover:border-blue-200 mx-auto"
-                            width={410}
-                            height={350}
-                            quality={100}
-                        />
+                        <ProjectImage image={image} />
                     </div>
                 </ConditionalLink>
             </div>
