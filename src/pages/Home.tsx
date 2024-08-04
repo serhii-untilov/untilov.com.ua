@@ -20,21 +20,11 @@ const Home = ({ cv }) => {
                             <h2 className="text-gray-700 text-lg mb-6">{cv.brief}</h2>
 
                             <ul className="flex flex-row gap-4 justify-self-center">
-                                {cv?.socialMedia?.linkedin && (
-                                    <li className="shrink-0 my-auto">
-                                        <LinkedIn cv={cv} />
+                                {[LinkedIn, GitHub, HarvardX].map((o, index) => (
+                                    <li key={index} className="shrink-0 my-auto">
+                                        {o({ cv })}
                                     </li>
-                                )}
-                                {cv?.socialMedia?.github && (
-                                    <li className="shrink-0 my-auto">
-                                        <GitHub cv={cv} />
-                                    </li>
-                                )}
-                                {cv?.socialMedia?.harvardx && (
-                                    <li className="shrink-0 my-auto">
-                                        <HarvardX cv={cv} />
-                                    </li>
-                                )}
+                                ))}
 
                                 <li className="pl-12 max-sm:pl-4">
                                     <Status cv={cv} />
