@@ -9,18 +9,25 @@ export function Project({ project, index }) {
     return (
         <>
             <div
-                className={
-                    (!!(index % 2)
-                        ? 'flex flex-row-reverse bg-gradient-to-l from-white to-gray-200'
-                        : 'flex flex-row bg-gradient-to-r from-white to-gray-200') +
-                    ' justify-between gap-8 grow-0 shrink-0 p-6 border-2 border-white shadow-md rounded-md max-md:flex-col-reverse max-md:bg-gradient-to-t'
-                }
+                className={[
+                    'flex',
+                    !!(index % 2)
+                        ? 'flex-row-reverse bg-gradient-to-l from-white to-gray-200'
+                        : 'flex-row bg-gradient-to-r from-white to-gray-200',
+                    ' justify-between gap-8 grow-0 shrink-0 p-6 border-2 border-white ',
+                    'shadow-md rounded-md max-md:flex-col-reverse max-md:bg-gradient-to-t',
+                ].join(' ')}
             >
                 <div className="flex flex-col gap-6 justify-between basis-1/2 max-md:basis-full">
                     <div className="flex flex-row justify-between">
                         <PageSubTitle>{project.title} </PageSubTitle>
                         {project.status ? (
-                            <div className="p-2 inline text-sm -rotate-12 rounded border-dashed border-2 border-gray-500 font-bold text-gray-500 w-fit uppercase text-center">
+                            <div
+                                className={[
+                                    'p-2 inline text-sm -rotate-12 rounded border-dashed ',
+                                    'border-2 border-gray-500 font-bold text-gray-500 w-fit uppercase text-center',
+                                ].join(' ')}
+                            >
                                 {project.status}
                             </div>
                         ) : null}

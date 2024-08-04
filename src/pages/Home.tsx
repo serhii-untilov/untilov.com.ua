@@ -1,16 +1,21 @@
 import HeroImage from '@/components/HeroImage';
 import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
-import GitHub from '../components/GitHub';
-import HarvardX from '../components/HarvardX';
-import LinkedIn from '../components/LinkedIn';
+import GitHub from '@/components/GitHub';
+import HarvardX from '@/components/HarvardX';
+import LinkedIn from '@/components/LinkedIn';
 
 const Home = ({ cv }) => {
     return (
         <>
             {cv && (
                 <div className="flex flex-col h-full justify-center max-sm:justify-normal max-sm:mx-4">
-                    <div className="flex flex-row justify-between gap-8 max-sm:gap-0 max-sm:flex-col-reverse max-sm:justify-start">
+                    <div
+                        className={[
+                            'flex flex-row justify-between gap-8',
+                            'max-sm:gap-0 max-sm:flex-col-reverse max-sm:justify-start',
+                        ].join(' ')}
+                    >
                         <div className="flex flex-col justify-around basis-2/3 max-sm:basis-full">
                             <h2 className="text-5xl font-extrabold text-gray-800 max-sm:text-center mb-4">
                                 {cv.job}

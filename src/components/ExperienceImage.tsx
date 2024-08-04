@@ -4,7 +4,12 @@ const ExperienceImage = ({ image }) => {
     return (
         <>
             {image && (
-                <div className="mx-auto bg-white rounded-full m-0 w-24 h-24 flex justify-center border-2 border-gray-200">
+                <div
+                    className={[
+                        'mx-auto bg-white rounded-full m-0 w-24 h-24 ',
+                        'flex justify-center border-2 border-gray-200',
+                    ].join(' ')}
+                >
                     <Image
                         src={image}
                         alt="Experience Image"

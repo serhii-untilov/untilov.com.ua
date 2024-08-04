@@ -12,7 +12,13 @@ export function ExperienceItem({ experienceItem, index }) {
                 'max-md:basis-full',
             ].join(' ')}
         >
-            <div className="w-full flex flex-col justify-between gap-1 m-4 p-6 rounded-md border-2 border-white shadow-md bg-gray-200 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40">
+            <div
+                className={[
+                    'w-full flex flex-col justify-between gap-1 m-4 p-6',
+                    'rounded-md border-2 border-white shadow-md bg-gray-200 bg-clip-padding ',
+                    'backdrop-filter backdrop-blur-sm bg-opacity-40',
+                ].join(' ')}
+            >
                 <div className="flex flex-col justify-start">
                     <ExperienceImage image={experienceItem.image} />
                     <div>

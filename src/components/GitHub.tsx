@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import Tooltip from './ui/Tooltip';
 
 export default function GitHub({ cv }) {
