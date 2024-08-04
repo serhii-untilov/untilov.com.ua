@@ -6,9 +6,9 @@ const DownloadCvButton = ({ cv }) => {
     return (
         <CircleButton
             title={'Download CV'}
-            href={cv.cv}
+            href={cv?.cv}
             image={'/images/pdf.svg'}
-            description={extractFileName(cv.cv)}
+            description={extractFileName(cv?.cv)}
         />
     );
 };

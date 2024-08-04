@@ -5,9 +5,9 @@ const LocationButton = ({ cv }) => {
     return (
         <CircleButton
             title={'Location'}
-            href={cv.location.link}
+            href={cv?.location?.link}
             image={'/images/map.svg'}
-            description={cv.location.label}
+            description={cv?.location?.label}
         />
     );
 };

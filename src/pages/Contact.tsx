@@ -5,14 +5,19 @@ import { PageTitle } from '@/components/PageTitle';
 
 const Contact = ({ cv }) => {
     return (
-        <div className="flex flex-col justify-start gap-8 flex-wrap min-h-screen px-4">
-            <PageTitle>Contact</PageTitle>
-            <div className="flex flex-row gap-8 justify-between flex-wrap max-md:flex-col">
-                <LocationButton cv={cv} />
-                <EmailButton cv={cv} />
-                <DownloadCvButton cv={cv} />
-            </div>
-        </div>
+        <>
+            {' '}
+            {cv && (
+                <div className="flex flex-col justify-start gap-8 flex-wrap min-h-screen px-4">
+                    <PageTitle>Contact</PageTitle>
+                    <div className="flex flex-row gap-8 justify-between flex-wrap max-md:flex-col">
+                        <LocationButton cv={cv} />
+                        <EmailButton cv={cv} />
+                        <DownloadCvButton cv={cv} />
+                    </div>
+                </div>
+            )}
+        </>
     );
 };
 

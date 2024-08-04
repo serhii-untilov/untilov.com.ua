@@ -5,9 +5,9 @@ const EmailButton = ({ cv }) => {
     return (
         <CircleButton
             title={'Mail'}
-            href={`mailto:${cv.email}?subject=Work Proposal`}
+            href={`mailto:${cv?.email}?subject=Work Proposal`}
             image={'/images/email.svg'}
-            description={cv.email}
+            description={cv?.email}
         />
     );
 };
