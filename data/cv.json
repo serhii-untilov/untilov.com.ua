@@ -10,7 +10,8 @@
     },
     "name": "Serhii Untilov",
     "status": [
-        "Open for work proposals"
+        "Open for work proposals",
+        "Download CV"
     ],
     "cv": "/files/CV-Serhii-Untilov.pdf",
     "location": {
@@ -60,13 +61,12 @@
     "projects": [
         {
             "title": "Payroll SMB",
-            "description": "Calculating salaries for small and medium businesses.",
+            "description": "Web application that features a responsive UI design, auto-generated REST API, event-driven document processing, and Server-Sent Events (SSE) enabling the client to receive automatic updates from the server.",
             "status": "In progress",
             "key-features": [
                 "Multi-tenant architecture",
                 "Mono-repository",
-                "JWT authorization",
-                "Role-based access",
+                "Role-based access with JWT authorization",
                 "Event-driven calculate processing",
                 "Automatic documents prepared according to the business process schedule"
             ],
