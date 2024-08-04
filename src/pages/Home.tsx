@@ -1,10 +1,9 @@
+import HeroImage from '@/components/HeroImage';
 import { Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
-import Image from 'next/image';
 import GitHub from '../components/GitHub';
 import HarvardX from '../components/HarvardX';
 import LinkedIn from '../components/LinkedIn';
-import HeroImage from '@/components/HeroImage';
 
 const Home = ({ cv }) => {
     return (
