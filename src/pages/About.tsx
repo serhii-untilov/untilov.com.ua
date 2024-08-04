@@ -3,8 +3,13 @@ import { PageSubTitle } from '@/components/PageSubTitle';
 import { PageTitle } from '@/components/PageTitle';
 import ProgrammerImage from '@/components/ProgrammerImage';
 import RotatedRingImage from '@/components/RotatedRingImage';
+import { useMemo } from 'react';
 
 const About = ({ cv }) => {
+    const description = cv?.about?.description?.map((element: string, index: number) => {
+        return <p key={index}>{element}</p>;
+    });
+
     return (
         <>
             {cv && (
@@ -35,9 +40,7 @@ const About = ({ cv }) => {
                     <div className="flex flex-col gap-6 basis-1/2 max-md:basis-full">
                         <PageTitle>About Me</PageTitle>
                         {cv.about?.title && <PageSubTitle>{cv.about?.title}</PageSubTitle>}
-                        {cv.about?.description?.map((element: string, index: number) => {
-                            return <p key={index}>{element}</p>;
-                        })}
+                        {description}
                     </div>
                 </div>
             )}
