@@ -3,7 +3,6 @@ import { PageSubTitle } from '@/components/PageSubTitle';
 import { PageTitle } from '@/components/PageTitle';
 import ProgrammerImage from '@/components/ProgrammerImage';
 import RotatedRingImage from '@/components/RotatedRingImage';
-import Image from 'next/image';
 
 const About = ({ cv }) => {
     return (
