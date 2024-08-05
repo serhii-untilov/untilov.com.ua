@@ -1,7 +1,7 @@
 {
     "pages": {
         "home": "true",
-        "about": "true",
+        "about": "false",
         "projects": "true",
         "experience": "true",
         "education": "true",
