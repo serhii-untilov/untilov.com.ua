@@ -21,7 +21,7 @@ const About = ({ cv }) => {
                             <div
                                 className={[
                                     'absolute left-72 top-52 rounded-full bg-white h-40 w-40',
-                                    'max-sm:sr-only max-lg:left-96 border-2 border-solid border-white',
+                                    'max-lg:sr-only border-2 border-solid border-white',
                                     'hover:scale-105 hover:border-blue-200 transition-all',
                                 ].join(' ')}
                             >
@@ -37,7 +37,11 @@ const About = ({ cv }) => {
                         <PageTitle>About Me</PageTitle>
                         {cv.about?.title && <PageSubTitle>{cv.about?.title}</PageSubTitle>}
                         {cv?.about?.description?.map((element: string, index: number) => {
-                            return <p key={index}>{element}</p>;
+                            return (
+                                <p className="text-gray-800" key={index}>
+                                    {element}
+                                </p>
+                            );
                         })}
                     </div>
                 </div>
