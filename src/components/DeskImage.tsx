@@ -5,7 +5,7 @@ const DeskImage = () => {
         <Image
             src="/images/desk.webp"
             alt={'Desk image'}
-            className="rounded-2xl border-2 border-gray-200 w-full max-w-fit max-md:mx-auto"
+            className="rounded-2xl border-2 border-gray-200 w-full max-w-fit max-lg:mx-auto"
             width={410}
             height={350}
         />
