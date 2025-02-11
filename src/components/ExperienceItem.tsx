@@ -49,7 +49,7 @@ export function ExperienceItem({ experienceItem, index }) {
                         </ul>
                     </div>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center py-0">
                     <TechStack techStack={experienceItem.techStack} />
                 </div>
             </div>

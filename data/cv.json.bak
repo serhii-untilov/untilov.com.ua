@@ -9,7 +9,9 @@
         "contact": "true"
     },
     "name": "Serhii Untilov",
-    "status": [],
+    "status": [
+        "Open for work proposals"
+    ],
     "cv": "/files/CV-Serhii-Untilov.pdf",
     "location": {
         "label": "Irpin, Ukraine",
@@ -153,34 +155,12 @@
     ],
     "experience": [
         {
-            "title": "Full-stack Web Developer",
-            "image": "/images/developer.svg",
-            "company": "FoxTeam Digital",
-            "place": "Kyiv",
-            "start": "nov 2024",
-            "finish": "present",
-            "description": "Accounting system for retail businesses",
-            "responsibilities": [
-                "analysis of requirements, product design",
-                "programming, team management"
-            ],
-            "techStack": [
-                "JavaScript",
-                "ExtJS",
-                "Vue.js.png",
-                "UnityBase",
-                "Postgres",
-                "SQL",
-                "Linux"
-            ]
-        },
-        {
             "title": "Full-stack Web Developer, Team lead",
             "image": "/images/team-leader.svg",
             "company": "Alliance Solution",
             "place": "Kyiv",
             "start": "jun 2021",
-            "finish": "feb 2023",
+            "finish": "present",
             "description": "Payroll, and WorkForce MS projects for Educational organizations of Kyiv City State Administration",
             "responsibilities": [
                 "analysis of customer requirements",
@@ -194,6 +174,7 @@
                 "Postgres",
                 "ElectronJS",
                 "SQL",
+                "Python",
                 "Linux"
             ]
         },
