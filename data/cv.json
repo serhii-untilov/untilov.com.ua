@@ -130,7 +130,7 @@
             "title": "Multi Export",
             "description": [
                 "Export data from the accounting systems' databases and prepare files for import into the 'A5 Solutions' database.",
-                "The source code moved to a private repository"],
+                "The source code moved to a private repository."],
             "status": [ "Скоро! Версія 2.0", "Експорт із Oracle DBMS" ],
             "key-features": [
                 "just fill in the cv.json file, then",
