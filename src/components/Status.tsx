@@ -1,8 +1,12 @@
-export function Status({ cv }) {
-    const isStatusEnabled = !!cv?.status?.reduce((a: number, b: string) => a + b.length, 0);
+type Props = {
+    status?: [string];
+};
+
+export function Status({status}: Props) {
+    const isEnabled = !!status?.length;
     return (
         <>
-            {isStatusEnabled && (
+            {isEnabled && (
                 <a href="#contact">
                     <div
                         className={[
@@ -12,7 +16,7 @@ export function Status({ cv }) {
                             'hover:to-pink-500 hover:border-solid hover:border-white transition-all',
                         ].join(' ')}
                     >
-                        {cv.status.map((element: string, index: number) => {
+                        {status.map((element: string, index: number) => {
                             return <div key={index}>{element}</div>;
                         })}
                     </div>

@@ -3,8 +3,14 @@ import ProjectImage from './ProjectImage';
 import { TechStack } from './TechStack';
 import { ButtonLink } from './ui/ButtonLink';
 import { ConditionalLink } from './ui/ConditionalLink';
+import { Status } from './Status';
 
-export function Project({ project, index }) {
+type Props = {
+    project: any,
+    index: number
+}
+
+export function Project({ project, index }: Props) {
     const image = `/images/${project?.title}.png`;
     return (
         <>
@@ -21,19 +27,29 @@ export function Project({ project, index }) {
                 <div className="flex flex-col gap-6 justify-between basis-1/2 max-md:basis-full">
                     <div className="flex flex-row justify-between">
                         <PageSubTitle>{project.title} </PageSubTitle>
-                        {project.status ? (
+                        {project?.status.length ? (
                             <div
                                 className={[
                                     'p-2 inline text-sm -rotate-12 rounded border-dashed ',
-                                    'border-2 border-gray-500 font-bold text-gray-500 w-fit uppercase text-center',
+                                    'border-2 font-bold ',
+                                    'border-blue-500 text-blue-500',
+                                    'font-bold w-fit uppercase text-center',
                                 ].join(' ')}
                             >
-                                {project.status}
+                                {project.status.map((element: any, index: number) => {
+                                    return (
+                                        <div key={index}>{element}</div>
+                                    )
+                                })}
                             </div>
                         ) : null}
                     </div>
 
-                    <p className="text-gray-800 py-2">{project.description}</p>
+                    <p className="text-gray-800 py-2">{project.description.map((element: any, index: number) => {
+                        return (
+                            <div key={index}>{element}</div>
+                        )
+                    })}</p>
                     <div className="flex justify-center">
                         <TechStack techStack={project.techStack} />
                     </div>

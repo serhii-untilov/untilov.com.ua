@@ -31,7 +31,7 @@ const Home = ({ cv }) => {
                                 ))}
 
                                 <li className="pl-12 max-sm:pl-4">
-                                    <Status cv={cv} />
+                                    <Status status={cv.status} />
                                 </li>
                             </ul>
                         </div>

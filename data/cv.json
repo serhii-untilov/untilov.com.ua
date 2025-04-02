@@ -58,8 +58,8 @@
     "projects": [
         {
             "title": "Payroll SMB",
-            "description": "Web application that features a responsive UI design, auto-generated REST API, event-driven document processing, and Server-Sent Events (SSE) enabling the client to receive automatic updates from the server.",
-            "status": "In progress",
+            "description": ["Web application that features a responsive UI design, auto-generated REST API, event-driven document processing, and Server-Sent Events (SSE) enabling the client to receive automatic updates from the server."],
+            "status": ["In progress"],
             "key-features": [
                 "Multi-tenant architecture",
                 "Mono-repository",
@@ -85,8 +85,8 @@
         {
             "skip": "true",
             "title": "CS50W Capstone project",
-            "description": "Capstone project for CS50's course 'Web Programming with Python and JavaScript'",
-            "status": "",
+            "description": ["Capstone project for CS50's course 'Web Programming with Python and JavaScript'"],
+            "status": [],
             "key-features": [
                 "User authentication and JWT",
                 "Calculate salary and taxes"
@@ -105,8 +105,8 @@
         {
             "skip": "false",
             "title": "Personal Website Template",
-            "description": "A personal website template that retrieves data from a 'cv.json' file.",
-            "status": "",
+            "description": ["A personal website template that retrieves data from a 'cv.json' file."],
+            "status": [],
             "key-features": [
                 "just fill in the cv.json file, then",
                 "replace images in 'public/files' directory",
@@ -128,8 +128,10 @@
         {
             "skip": "false",
             "title": "Multi Export",
-            "description": "Export data from the accounting systems' databases and prepare files for import into the 'A5 Solutions' database.",
-            "status": "",
+            "description": [
+                "Export data from the accounting systems' databases and prepare files for import into the 'A5 Solutions' database.",
+                "The source code moved to a private repository"],
+            "status": [ "Скоро! Версія 2.0", "Експорт із Oracle DBMS" ],
             "key-features": [
                 "just fill in the cv.json file, then",
                 "replace images in 'public/files' directory",
@@ -146,7 +148,7 @@
                 "Postgres",
                 "MS SQL Server"
             ],
-            "sourceUrl": "https://github.com/serhii-untilov/multi-export",
+            "sourceUrl": "",
             "demoUrl": "https://mega.nz/file/MAd2TbSY#9b8iX5oEKbYM7fXEQbUFE7uKynBcFktwkqFl78wno5o",
             "demoType": "Download"
         }
