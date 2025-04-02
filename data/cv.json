@@ -131,7 +131,7 @@
             "description": [
                 "Export data from the accounting systems' databases and prepare files for import into the A5 [ERP, HRMIS] databases.",
                 "The source code moved to a private repository."],
-            "status": [ "Скоро! Версія 2.0", "Експорт із Oracle DB" ],
+            "status": [ "Скоро! Версія 2.1", "Експорт із Oracle DB" ],
             "key-features": [
                 "just fill in the cv.json file, then",
                 "replace images in 'public/files' directory",
