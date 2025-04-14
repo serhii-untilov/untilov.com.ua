@@ -148,7 +148,7 @@
                 "Postgres",
                 "MS SQL Server"
             ],
-            "sourceUrl": "",
+            "sourceUrl": "https://github.com/serhii-untilov/multi-export",
             "demoUrl": "https://drive.google.com/drive/folders/1UUKxbe4Ku08w6Qs2olWQVxBRxIJOcRia?usp=sharing",
             "demoType": "Download"
         }
