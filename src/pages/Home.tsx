@@ -1,5 +1,5 @@
 import HeroImage from '@/components/HeroImage';
-import { Status } from '@/components/Status';
+import { accentClass, Status } from '@/components/Status';
 import { TechStack } from '@/components/TechStack';
 import GitHub from '@/components/GitHub';
 import HarvardX from '@/components/HarvardX';
@@ -31,7 +31,7 @@ const Home = ({ cv }) => {
                                 ))}
 
                                 <li className="pl-12 max-sm:pl-4">
-                                    <Status status={cv.status} />
+                                    <Status status={cv.status} cls={accentClass}/>
                                 </li>
                             </ul>
                         </div>

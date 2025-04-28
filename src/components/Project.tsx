@@ -3,7 +3,7 @@ import ProjectImage from './ProjectImage';
 import { TechStack } from './TechStack';
 import { ButtonLink } from './ui/ButtonLink';
 import { ConditionalLink } from './ui/ConditionalLink';
-import { Status } from './Status';
+import { Status } from '@/components/Status';
 
 type Props = {
     project: any,
@@ -27,22 +27,8 @@ export function Project({ project, index }: Props) {
                 <div className="flex flex-col gap-6 justify-between basis-1/2 max-md:basis-full">
                     <div className="flex flex-row justify-between">
                         <PageSubTitle>{project.title} </PageSubTitle>
-                        {project?.status.length ? (
-                            <div
-                                className={[
-                                    'p-2 inline text-sm -rotate-12 rounded border-dashed ',
-                                    'border-2 font-bold ',
-                                    'border-blue-500 text-blue-500',
-                                    'font-bold w-fit uppercase text-center',
-                                ].join(' ')}
-                            >
-                                {project.status.map((element: any, index: number) => {
-                                    return (
-                                        <div key={index}>{element}</div>
-                                    )
-                                })}
-                            </div>
-                        ) : null}
+
+                        {project?.status && <Status status={project.status} /> }
                     </div>
 
                     <p className="text-gray-800 py-2">{project.description.map((element: any, index: number) => {

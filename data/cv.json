@@ -9,7 +9,10 @@
         "contact": "true"
     },
     "name": "Serhii Untilov",
-    "status": [],
+    "status": {
+        "description": [],
+        "link": "#contact"
+    },
     "cv": "/files/CV-Serhii-Untilov.pdf",
     "location": {
         "label": "Irpin, Ukraine",
@@ -59,7 +62,9 @@
         {
             "title": "Payroll SMB",
             "description": ["Web application that features a responsive UI design, auto-generated REST API, event-driven document processing, and Server-Sent Events (SSE) enabling the client to receive automatic updates from the server."],
-            "status": ["In progress"],
+            "status": {
+                "description": ["In progress"]
+            },
             "key-features": [
                 "Multi-tenant architecture",
                 "Mono-repository",
@@ -86,7 +91,9 @@
             "skip": "true",
             "title": "CS50W Capstone project",
             "description": ["Capstone project for CS50's course 'Web Programming with Python and JavaScript'"],
-            "status": [],
+            "status": {
+                "description": []
+            },
             "key-features": [
                 "User authentication and JWT",
                 "Calculate salary and taxes"
@@ -106,7 +113,9 @@
             "skip": "false",
             "title": "Personal Website Template",
             "description": ["A personal website template that retrieves data from a 'cv.json' file."],
-            "status": [],
+            "status": {
+                "description": []
+            },
             "key-features": [
                 "just fill in the cv.json file, then",
                 "replace images in 'public/files' directory",
@@ -131,7 +140,10 @@
             "description": [
                 "Export data from the accounting systems' databases and prepare files for import into the A5 [ERP, HRMIS] databases.",
                 "The source code moved to a private repository."],
-            "status": [ "Скоро! Версія 2.1", "Експорт із Oracle DB" ],
+            "status": {
+                "description": [ "Including export", "from Oracle database" ],
+                "link": "https://drive.google.com/drive/folders/1YH3mHGaI2lPrdmFOIGmQrSbS6ET-DPpl?usp=sharing"
+            },
             "key-features": [
                 "just fill in the cv.json file, then",
                 "replace images in 'public/files' directory",
