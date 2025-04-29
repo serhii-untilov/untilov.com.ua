@@ -63,7 +63,7 @@
             "title": "Payroll SMB",
             "description": ["Web application that features a responsive UI design, auto-generated REST API, event-driven document processing, and Server-Sent Events (SSE) enabling the client to receive automatic updates from the server."],
             "status": {
-                "description": ["In progress, but", "preview available"],
+                "description": ["In progress", "Preview available"],
                 "link": "https://payroll.untilov.com.ua"
             },
             "key-features": [
@@ -142,7 +142,7 @@
                 "Export data from the accounting systems' databases and prepare files for import into the A5 [ERP, HRMIS] databases.",
                 "The source code moved to a private repository."],
             "status": {
-                "description": [ "Including export", "from Oracle database" ],
+                "description": [ "+ export from", "Oracle database" ],
                 "link": "https://drive.google.com/drive/folders/1YH3mHGaI2lPrdmFOIGmQrSbS6ET-DPpl?usp=sharing"
             },
             "key-features": [
