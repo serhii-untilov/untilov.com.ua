@@ -139,8 +139,7 @@
             "skip": "false",
             "title": "Multi Export",
             "description": [
-                "Export data from the accounting systems' databases and prepare files for import into the A5 [ERP, HRMIS] databases.",
-                "The source code moved to a private repository."],
+                "Export data from the accounting systems' databases and prepare files for import into the A5 [ERP, HRMIS] databases."],
             "status": {
                 "description": [ "+ export from", "Oracle database" ],
                 "link": "https://drive.google.com/drive/folders/1YH3mHGaI2lPrdmFOIGmQrSbS6ET-DPpl?usp=sharing"
