@@ -142,7 +142,7 @@
                 "Export data from the accounting systems' databases and prepare files for import into the A5 [ERP, HRMIS] databases."],
             "status": {
                 "description": [ "+ export from", "Oracle database" ],
-                "link": "https://drive.google.com/drive/folders/1YH3mHGaI2lPrdmFOIGmQrSbS6ET-DPpl?usp=sharing"
+                "link": "https://drive.untilov.com.ua/d/80a5dc70686045ecb37c/"
             },
             "key-features": [
                 "just fill in the cv.json file, then",
@@ -161,7 +161,7 @@
                 "MS SQL Server"
             ],
             "sourceUrl": "https://github.com/serhii-untilov/multi-export",
-            "demoUrl": "https://drive.google.com/drive/folders/1UUKxbe4Ku08w6Qs2olWQVxBRxIJOcRia?usp=sharing",
+            "demoUrl": "https://drive.untilov.com.ua/d/80a5dc70686045ecb37c/",
             "demoType": "Download"
         }
     ],
